@@ -1,0 +1,51 @@
+{
+  "took": 15,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 35,
+    "skipped": 30,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "testIndex",
+        "_id": "id",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-01-21T11:26:51.657+07:00",
+          "message": "INFO | Test Message 1",
+          "@log_name": "hello test"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-01-21T04:26:51.657Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO | Test Message 2"
+          ]
+        },
+        "sort": [
+          123
+        ]
+      }
+    ]
+  },
+  "aggregations": {
+    "2": {
+      "buckets": [
+        {
+          "key_as_string": "2026-01-21T11:26:51.000+07:00",
+          "key": 123,
+          "doc_count": 1
+        }
+      ]
+    }
+  }
+}
