@@ -1,0 +1,16 @@
+{
+  "Get Privilege Profile": [
+    "/customer-infos",
+    "/point-expire-forecasts"
+  ],
+  "Redeem detail": [
+    "/promotion/v2/content",
+    "/loyaltyManagement/v2/eligibleAndRedeem"
+  ],
+  "Redeem": [
+    "/loyaltyManagement/v2/eligibleAndRedeem"
+  ],
+  "History": [
+    "/getTransaction"
+  ]
+}

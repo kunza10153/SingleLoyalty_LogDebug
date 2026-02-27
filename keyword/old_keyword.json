@@ -1,0 +1,18 @@
+{
+  "Get Privilege Profile": [
+    "/loyaltyBalance",
+    "/getExpiration",
+    "/loyaltyProgramMember"
+  ],
+  "Redeem detail": [
+    "/campaignDetail"
+  ],
+  "Redeem": [
+    "/loyaltyBurn",
+    "/redeemGame"
+  ],
+  "History": [
+    "/loyaltyProgramProduct",
+    "/earnHistory"
+  ]
+}

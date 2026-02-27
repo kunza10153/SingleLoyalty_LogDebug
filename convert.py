@@ -6,7 +6,7 @@ import glob
 # ชื่อโฟลเดอร์
 INPUT_FOLDER = 'input'
 OUTPUT_FOLDER = 'output'
-
+RESULT_FOLDER = 'result'
 
 def process_conversion():
     # 1. สร้างโฟลเดอร์ output ถ้ายังไม่มี
@@ -57,8 +57,84 @@ def process_conversion():
         except Exception as e:
             print(f"❌ Error ในไฟล์ {filename}: {e}")
 
+def search_by_keyword_file():
+    import glob
+    import json
+
+    # สร้าง result folder
+    if not os.path.exists(RESULT_FOLDER):
+        os.makedirs(RESULT_FOLDER)
+
+    # ให้ user เลือก
+    choice = input("เลือก keyword (old / new): ").strip().lower()
+
+    keyword_path = os.path.join("keyword", f"{choice}_keyword.json")
+
+    if not os.path.exists(keyword_path):
+        print("❌ ไม่พบไฟล์ keyword")
+        return
+
+    # โหลด keyword
+    with open(keyword_path, "r", encoding="utf-8") as f:
+        keyword_data = json.load(f)
+
+    csv_files = glob.glob(os.path.join(OUTPUT_FOLDER, "*.csv"))
+
+    # loop ตามหัวข้อหลัก
+    for topic, keywords in keyword_data.items():
+        print(f"\n🔎 Searching topic: {topic}")
+
+        topic_results = []
+
+        for file_path in csv_files:
+            filename = os.path.basename(file_path)
+
+            with open(file_path, 'r', encoding='utf-8-sig') as f:
+                reader = csv.reader(f)
+                next(reader, None)
+
+                for row_number, row in enumerate(reader, start=2):
+                    if not row:
+                        continue
+
+                    full_text = " ".join(row).lower()
+
+                    for keyword in keywords:
+                        if keyword.lower() in full_text:
+                            topic_results.append([
+                                topic,
+                                keyword,
+                                filename,
+                                row_number,
+                                full_text
+                            ])
+
+        if not topic_results:
+            print(f"⚠️ ไม่พบ keyword สำหรับ {topic}")
+            continue
+
+        # ตั้งชื่อไฟล์จาก topic
+        safe_topic = topic.replace(" ", "_")
+        summary_file = os.path.join(
+            RESULT_FOLDER,
+            f"{safe_topic}.csv"
+        )
+
+        with open(summary_file, 'w', newline='', encoding='utf-8-sig') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                "topic",
+                "keyword",
+                "filename",
+                "row_number",
+                "message"
+            ])
+            writer.writerows(topic_results)
+
+        print(f"✅ Export: {summary_file}")
 
 if __name__ == "__main__":
     process_conversion()
     print("-" * 30)
+    search_by_keyword_file()
     input("กด Enter เพื่อปิดหน้าต่างนี้...")
