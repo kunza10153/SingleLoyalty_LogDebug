@@ -1,0 +1,795 @@
+{
+  "took": 1363,
+  "timed_out": false,
+  "_shards": {
+    "total": 35,
+    "successful": 35,
+    "skipped": 25,
+    "failed": 0
+  },
+  "hits": {
+    "total": 32,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "pqWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.739+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.filter.ControllerFilter|Received Endpoint: GET http://localhost:8081/reward/v1/shelf/getlayout, Headers : x-tx-id:trueapp20260424155051737536; authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnRJZCI6InRydWVhcHBwcmVwcm9kIiwiYXBpSWQiOiIyYWY4fDI3MWF8MjIyZTB8MjcxMDB8NGUyMHw5YzQwfDJlZTB8ZWE2MHwxODZhMHwxYWRiMHwxZmJkMHwyNzEwfDc1MzB8YzM1MHwxMTE3MHwxNWY5MCIsIm1ldGhvZCI6IlNXSVRDSF9MT0dJTiIsImN1c3RvbWVySW5mbyI6eyJkaWdpdGFsSWQiOiJiMGMxNmRmNGU3YjUzZWE3YzY3Zjc3OGIwN2VlZGRmZSIsInByb2R1Y3RJZCI6IlAwVHIycXNydjM3NWd0dEFUL1FWeTNBOHRsVlhYYi9SWm0ydXVZY2o5TVE9IiwicHJvZHVjdEJyYW5kIjoiVE1IIiwicHJvZHVjdFR5cGUiOiJQT1NUUEFJRCIsInByb2R1Y3RTZWdtZW50IjoiVFVDIiwiY3VzdG9tZXJUeXBlIjoiSU5ESSIsImFjY3RTdWJUeXBlIjoiUlBJIiwiaHlicmlkRmxhZyI6Ik4ifSwicGFyZW50SW5mbyI6eyJkaWdpdGFsSWQiOiJiMGMxNmRmNGU3YjUzZWE3YzY3Zjc3OGIwN2VlZGRmZSIsInByb2R1Y3RJZCI6Ink5OFUzbGsvWHhzS0ZjMVJpVEphZ0pNblFSOTc4SjJ6bXlEM3N1WVRhbU09IiwicHJvZHVjdEJyYW5kIjoiVE1IIiwicHJvZHVjdFR5cGUiOiJQT1NUUEFJRCIsInByb2R1Y3RTZWdtZW50IjoiVFVDIiwiY3VzdG9tZXJUeXBlIjoiSU5ESSIsImFjY3RTdWJUeXBlIjoiUlBJIiwiaHlicmlkRmxhZyI6Ik4ifSwic2lkIjoiMDg2YjY4MTJiODg4Ni0yODYyMDQtMTYwMjIwZTAtLTgiLCJqdGkiOiJkMzFmYmE5MS00NDAzLTRiODYtYjI0YS01OTc1OWUxMWZmNGUiLCJpYXQiOjE3NzcwMjA1NTMsImlzcyI6InRydWVhcHAtY29tbW9uYmUtYXV0aGVuLWRlcGxveS04NjhjZDRjYmI4LXpkbm1yIiwiYXVkIjoidHJ1ZWFwcHByZXByb2QiLCJleHAiOjE3NzcwMjE0NTN9.VEwY0wCae-eYhYdoIK7WfxjzWOrlRj6E0f18jOiAOts; user-agent:Dart/3.10 (dart:io); sourcesystemid:trueapp; sessionid:086b6812b8886-286204-160220e0--8; deviceid:5D73499C-9BB5-4593-8AA3-34BB4576EC81; platform:IOS; language:TH; version:11.0402.0; x-app-meta:eyJ2IjoiMS4wIiwiYXBwIjp7ImlkIjoidGguY28udHJ1ZWNvcnAuYmV0YSIsInYiOiIxMS4wNDAyLjAiLCJzcyI6InRydWVhcHAifSwiZGV2aWNlIjp7ImlkIjoiNUQ3MzQ5OUMtOUJCNS00NTkzLThBQTMtMzRCQjQ1NzZFQzgxIiwicGYiOiJJT1MiLCJ2IjoiMjYuMy4xIiwiZGkiOiJpUGhvbmUxNywzIiwibW4iOiJpUGhvbmUiLCJiciI6IkFwcGxlIiwiamIiOiJmYWxzZSIsImVtIjoiZmFsc2UiLCJudCI6IndpZmkiLCJkbSI6ImZhbHNlIiwibGEiOiIiLCJsbyI6IiJ9LCJ1c2VyIjp7ImwiOiJUSCIsInNpIjoiMDg2YjY4MTJiODg4Ni0yODYyMDQtMTYwMjIwZTAtLTgiLCJkZ3QiOiJiMGMxNmRmNGU3YjUzZWE3YzY3Zjc3OGIwN2VlZGRmZSJ9fQ==; x-customer-profile:{\"clientId\":\"trueapppreprod\",\"apiId\":\"2af8|271a|222e0|27100|4e20|9c40|2ee0|ea60|186a0|1adb0|1fbd0|2710|7530|c350|11170|15f90\",\"method\":\"SWITCH_LOGIN\",\"customerInfo\":{\"digitalId\":\"b0c16df4e7b53ea7c67f778b07eeddfe\",\"productId\":\"P0Tr2qsrv375gttAT/QVy3A8tlVXXb/RZm2uuYcj9MQ=\",\"productBrand\":\"TMH\",\"productType\":\"POSTPAID\",\"productSegment\":\"TUC\",\"customerType\":\"INDI\",\"acctSubType\":\"RPI\",\"hybridFlag\":\"N\"},\"parentInfo\":{\"digitalId\":\"b0c16df4e7b53ea7c67f778b07eeddfe\",\"productId\":\"y98U3lk/XxsKFc1RiTJagJMnQR978J2zmyD3suYTamM=\",\"productBrand\":\"TMH\",\"productType\":\"POSTPAID\",\"productSegment\":\"TUC\",\"customerType\":\"INDI\",\"acctSubType\":\"RPI\",\"hybridFlag\":\"N\"},\"sid\":\"086b6812b8886-286204-160220e0--8\",\"jti\":\"d31fba91-4403-4b86-b24a-59759e11ff4e\",\"iat\":1777020553,\"iss\":\"trueapp-commonbe-authen-deploy-868cd4cbb8-zdnmr\",\"aud\":\"trueapppreprod\",\"exp\":1777021453}; accept-encoding:gzip, x-gzip, deflate; host:localhost:8081; connection:keep-alive; ",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.739Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.filter.ControllerFilter|Received Endpoint: GET http://localhost:8081/reward/v1/shelf/getlayout, Headers : x-tx-id:trueapp20260424155051737536; authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnRJZCI6InRydWVhcHBwcmVwcm9kIiwiYXBpSWQiOiIyYWY4fDI3MWF8MjIyZTB8MjcxMDB8NGUyMHw5YzQwfDJlZTB8ZWE2MHwxODZhMHwxYWRiMHwxZmJkMHwyNzEwfDc1MzB8YzM1MHwxMTE3MHwxNWY5MCIsIm1ldGhvZCI6IlNXSVRDSF9MT0dJTiIsImN1c3RvbWVySW5mbyI6eyJkaWdpdGFsSWQiOiJiMGMxNmRmNGU3YjUzZWE3YzY3Zjc3OGIwN2VlZGRmZSIsInByb2R1Y3RJZCI6IlAwVHIycXNydjM3NWd0dEFUL1FWeTNBOHRsVlhYYi9SWm0ydXVZY2o5TVE9IiwicHJvZHVjdEJyYW5kIjoiVE1IIiwicHJvZHVjdFR5cGUiOiJQT1NUUEFJRCIsInByb2R1Y3RTZWdtZW50IjoiVFVDIiwiY3VzdG9tZXJUeXBlIjoiSU5ESSIsImFjY3RTdWJUeXBlIjoiUlBJIiwiaHlicmlkRmxhZyI6Ik4ifSwicGFyZW50SW5mbyI6eyJkaWdpdGFsSWQiOiJiMGMxNmRmNGU3YjUzZWE3YzY3Zjc3OGIwN2VlZGRmZSIsInByb2R1Y3RJZCI6Ink5OFUzbGsvWHhzS0ZjMVJpVEphZ0pNblFSOTc4SjJ6bXlEM3N1WVRhbU09IiwicHJvZHVjdEJyYW5kIjoiVE1IIiwicHJvZHVjdFR5cGUiOiJQT1NUUEFJRCIsInByb2R1Y3RTZWdtZW50IjoiVFVDIiwiY3VzdG9tZXJUeXBlIjoiSU5ESSIsImFjY3RTdWJUeXBlIjoiUlBJIiwiaHlicmlkRmxhZyI6Ik4ifSwic2lkIjoiMDg2YjY4MTJiODg4Ni0yODYyMDQtMTYwMjIwZTAtLTgiLCJqdGkiOiJkMzFmYmE5MS00NDAzLTRiODYtYjI0YS01OTc1OWUxMWZmNGUiLCJpYXQiOjE3NzcwMjA1NTMsImlzcyI6InRydWVhcHAtY29tbW9uYmUtYXV0aGVuLWRlcGxveS04NjhjZDRjYmI4LXpkbm1yIiwiYXVkIjoidHJ1ZWFwcHByZXByb2QiLCJleHAiOjE3NzcwMjE0NTN9.VEwY0wCae-eYhYdoIK7WfxjzWOrlRj6E0f18jOiAOts; user-agent:Dart/3.10 (dart:io); sourcesystemid:trueapp; sessionid:086b6812b8886-286204-160220e0--8; deviceid:5D73499C-9BB5-4593-8AA3-34BB4576EC81; platform:IOS; language:TH; version:11.0402.0; x-app-meta:eyJ2IjoiMS4wIiwiYXBwIjp7ImlkIjoidGguY28udHJ1ZWNvcnAuYmV0YSIsInYiOiIxMS4wNDAyLjAiLCJzcyI6InRydWVhcHAifSwiZGV2aWNlIjp7ImlkIjoiNUQ3MzQ5OUMtOUJCNS00NTkzLThBQTMtMzRCQjQ1NzZFQzgxIiwicGYiOiJJT1MiLCJ2IjoiMjYuMy4xIiwiZGkiOiJpUGhvbmUxNywzIiwibW4iOiJpUGhvbmUiLCJiciI6IkFwcGxlIiwiamIiOiJmYWxzZSIsImVtIjoiZmFsc2UiLCJudCI6IndpZmkiLCJkbSI6ImZhbHNlIiwibGEiOiIiLCJsbyI6IiJ9LCJ1c2VyIjp7ImwiOiJUSCIsInNpIjoiMDg2YjY4MTJiODg4Ni0yODYyMDQtMTYwMjIwZTAtLTgiLCJkZ3QiOiJiMGMxNmRmNGU3YjUzZWE3YzY3Zjc3OGIwN2VlZGRmZSJ9fQ==; x-customer-profile:{\"clientId\":\"trueapppreprod\",\"apiId\":\"2af8|271a|222e0|27100|4e20|9c40|2ee0|ea60|186a0|1adb0|1fbd0|2710|7530|c350|11170|15f90\",\"method\":\"SWITCH_LOGIN\",\"customerInfo\":{\"digitalId\":\"b0c16df4e7b53ea7c67f778b07eeddfe\",\"productId\":\"P0Tr2qsrv375gttAT/QVy3A8tlVXXb/RZm2uuYcj9MQ=\",\"productBrand\":\"TMH\",\"productType\":\"POSTPAID\",\"productSegment\":\"TUC\",\"customerType\":\"INDI\",\"acctSubType\":\"RPI\",\"hybridFlag\":\"N\"},\"parentInfo\":{\"digitalId\":\"b0c16df4e7b53ea7c67f778b07eeddfe\",\"productId\":\"y98U3lk/XxsKFc1RiTJagJMnQR978J2zmyD3suYTamM=\",\"productBrand\":\"TMH\",\"productType\":\"POSTPAID\",\"productSegment\":\"TUC\",\"customerType\":\"INDI\",\"acctSubType\":\"RPI\",\"hybridFlag\":\"N\"},\"sid\":\"086b6812b8886-286204-160220e0--8\",\"jti\":\"d31fba91-4403-4b86-b24a-59759e11ff4e\",\"iat\":1777020553,\"iss\":\"trueapp-commonbe-authen-deploy-868cd4cbb8-zdnmr\",\"aud\":\"trueapppreprod\",\"exp\":1777021453}; accept-encoding:gzip, x-gzip, deflate; host:localhost:8081; connection:keep-alive;"
+          ]
+        },
+        "sort": [
+          1777020651739
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "qaWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.740+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.t.ShelfTransaction|prepair data",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.740Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.t.ShelfTransaction|prepair data"
+          ]
+        },
+        "sort": [
+          1777020651740
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "qKWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.740+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.a.SwapForLoggingAspect|========= aroundClearCacheTransaction =========",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.740Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.a.SwapForLoggingAspect|========= aroundClearCacheTransaction ========="
+          ]
+        },
+        "sort": [
+          1777020651740
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "qqWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.740+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|start get layout id",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.740Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|start get layout id"
+          ]
+        },
+        "sort": [
+          1777020651740
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "p6Wvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.740+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.controller.ShelfController|Start Get Layout with brandCode is TRUE , productType is  , chargeType is ",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.740Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.controller.ShelfController|Start Get Layout with brandCode is TRUE , productType is  , chargeType is"
+          ]
+        },
+        "sort": [
+          1777020651740
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "q6Wvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.740+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.redis.RedisCacheService|RedisCacheService get -> key: layoutId:TRUE",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.740Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.redis.RedisCacheService|RedisCacheService get -> key: layoutId:TRUE"
+          ]
+        },
+        "sort": [
+          1777020651740
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "sqWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.741+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|not found layout id in redis and start get layout id in database",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.741Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|not found layout id in redis and start get layout id in database"
+          ]
+        },
+        "sort": [
+          1777020651741
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "s6Wvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.741+07:00",
+          "message": "DEBUG|086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|org.hibernate.SQL|select a.layout_id as layoutId from rwd_layout a where a.layout_status = ? and a.valid_flag = ? and a.brand_code = ? ",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.741Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|org.hibernate.SQL|select a.layout_id as layoutId from rwd_layout a where a.layout_status = ? and a.valid_flag = ? and a.brand_code = ?"
+          ]
+        },
+        "sort": [
+          1777020651741
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "t6Wvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.750+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|start process handle language with and langFront is TH",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.750Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|start process handle language with and langFront is TH"
+          ]
+        },
+        "sort": [
+          1777020651750
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "tqWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.750+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|start map error apigw with action is QUERY DATA and brand is TRUE and errCode is '400.000.9995' and lang is TH and errorDesc is data not found and businessErr is N/A and displayType is MESSAGE",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.750Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|start map error apigw with action is QUERY DATA and brand is TRUE and errCode is '400.000.9995' and lang is TH and errorDesc is data not found and businessErr is N/A and displayType is MESSAGE"
+          ]
+        },
+        "sort": [
+          1777020651750
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "uKWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.751+07:00",
+          "message": "DEBUG|086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|org.hibernate.SQL|select rsc1_0.id,rsc1_0.config_code,rsc1_0.config_group,rsc1_0.created_by,rsc1_0.created_date,rsc1_0.description,rsc1_0.modified_by,rsc1_0.modified_date,rsc1_0.value from rwd_system_config rsc1_0 where rsc1_0.config_code=? and rsc1_0.config_group=? fetch first ? rows only",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.751Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|org.hibernate.SQL|select rsc1_0.id,rsc1_0.config_code,rsc1_0.config_group,rsc1_0.created_by,rsc1_0.created_date,rsc1_0.description,rsc1_0.modified_by,rsc1_0.modified_date,rsc1_0.value from rwd_system_config rsc1_0 where rsc1_0.config_code=? and rsc1_0.config_group=? fetch first ? rows only"
+          ]
+        },
+        "sort": [
+          1777020651751
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "vKWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.758+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|system config is {\"id\":75,\"configCode\":\"DEFAULT_LANG\",\"configGroup\":\"FIX\",\"description\":\"Default privilege language for TrueApp\",\"value\":\"FRONT\",\"createdBy\":\"ADMIN\",\"createdDate\":\"Nov 4, 2024, 1:51:42 PM\",\"modifiedBy\":\"Sorawut Teawjan\",\"modifiedDate\":\"Nov 5, 2024, 9:27:38 AM\"}",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.758Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|system config is {\"id\":75,\"configCode\":\"DEFAULT_LANG\",\"configGroup\":\"FIX\",\"description\":\"Default privilege language for TrueApp\",\"value\":\"FRONT\",\"createdBy\":\"ADMIN\",\"createdDate\":\"Nov 4, 2024, 1:51:42 PM\",\"modifiedBy\":\"Sorawut Teawjan\",\"modifiedDate\":\"Nov 5, 2024, 9:27:38 AM\"}"
+          ]
+        },
+        "sort": [
+          1777020651758
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "vaWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.758+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|end process handle language with response is TH",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.758Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|end process handle language with response is TH"
+          ]
+        },
+        "sort": [
+          1777020651758
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "wKWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.793+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|Data fetched from cache.",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.793Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|Data fetched from cache."
+          ]
+        },
+        "sort": [
+          1777020651793
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "waWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.794+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|result error is {\"endpointStatusType\":\"B\",\"endpointStatusCode\":\"B-RWD-51215\",\"endpointResponseCode\":\"51215\",\"endpointErrorCode\":\"B-RWD-51215\",\"endpointErrorMessage\":\"ขออภัย...\",\"endpointErrorDescription\":\"ไม่พบข้อมูล\",\"httpStatus\":400,\"endpointResponseMessage\":\"ขออภัย...\"}",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.794Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|result error is {\"endpointStatusType\":\"B\",\"endpointStatusCode\":\"B-RWD-51215\",\"endpointResponseCode\":\"51215\",\"endpointErrorCode\":\"B-RWD-51215\",\"endpointErrorMessage\":\"ขออภัย...\",\"endpointErrorDescription\":\"ไม่พบข้อมูล\",\"httpStatus\":400,\"endpointResponseMessage\":\"ขออภัย...\"}"
+          ]
+        },
+        "sort": [
+          1777020651794
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "xKWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.794+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.redis.RedisCacheService|RedisCacheService get -> key: layoutId:TRUE:default",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.794Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.redis.RedisCacheService|RedisCacheService get -> key: layoutId:TRUE:default"
+          ]
+        },
+        "sort": [
+          1777020651794
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "wqWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.794+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|not found layout id in database",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.794Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|not found layout id in database"
+          ]
+        },
+        "sort": [
+          1777020651794
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "w6Wvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.794+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|Can not find layout id and find layout id default",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.794Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|Can not find layout id and find layout id default"
+          ]
+        },
+        "sort": [
+          1777020651794
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "xaWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.795+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|not found layout default in redis and find layout default in database",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.795Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|not found layout default in redis and find layout default in database"
+          ]
+        },
+        "sort": [
+          1777020651795
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "xqWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.795+07:00",
+          "message": "DEBUG|086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|org.hibernate.SQL|select rsc1_0.id,rsc1_0.config_code,rsc1_0.config_group,rsc1_0.created_by,rsc1_0.created_date,rsc1_0.description,rsc1_0.modified_by,rsc1_0.modified_date,rsc1_0.value from rwd_system_config rsc1_0 where rsc1_0.config_code=? and rsc1_0.config_group=? fetch first ? rows only",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.795Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|org.hibernate.SQL|select rsc1_0.id,rsc1_0.config_code,rsc1_0.config_group,rsc1_0.created_by,rsc1_0.created_date,rsc1_0.description,rsc1_0.modified_by,rsc1_0.modified_date,rsc1_0.value from rwd_system_config rsc1_0 where rsc1_0.config_code=? and rsc1_0.config_group=? fetch first ? rows only"
+          ]
+        },
+        "sort": [
+          1777020651795
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "0KWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.803+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|start map error apigw with action is QUERY DATA and brand is TRUE and errCode is '400.000.9995' and lang is TH and errorDesc is layout default is empty and businessErr is N/A and displayType is MESSAGE",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.803Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|start map error apigw with action is QUERY DATA and brand is TRUE and errCode is '400.000.9995' and lang is TH and errorDesc is layout default is empty and businessErr is N/A and displayType is MESSAGE"
+          ]
+        },
+        "sort": [
+          1777020651803
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "0qWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.803+07:00",
+          "message": "DEBUG|086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|org.hibernate.SQL|select rsc1_0.id,rsc1_0.config_code,rsc1_0.config_group,rsc1_0.created_by,rsc1_0.created_date,rsc1_0.description,rsc1_0.modified_by,rsc1_0.modified_date,rsc1_0.value from rwd_system_config rsc1_0 where rsc1_0.config_code=? and rsc1_0.config_group=? fetch first ? rows only",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.803Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|org.hibernate.SQL|select rsc1_0.id,rsc1_0.config_code,rsc1_0.config_group,rsc1_0.created_by,rsc1_0.created_date,rsc1_0.description,rsc1_0.modified_by,rsc1_0.modified_date,rsc1_0.value from rwd_system_config rsc1_0 where rsc1_0.config_code=? and rsc1_0.config_group=? fetch first ? rows only"
+          ]
+        },
+        "sort": [
+          1777020651803
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "0aWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.803+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|start process handle language with and langFront is TH",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.803Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|start process handle language with and langFront is TH"
+          ]
+        },
+        "sort": [
+          1777020651803
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "zqWvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.803+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|found layout default is null",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.803Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|found layout default is null"
+          ]
+        },
+        "sort": [
+          1777020651803
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "z6Wvvp0BmXFpkG0kYWHi",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.803+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|layout default is empty",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.803Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.s.ShelfLayoutListService|layout default is empty"
+          ]
+        },
+        "sort": [
+          1777020651803
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "2KWvvp0BmXFpkG0kYWHj",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.811+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|system config is {\"id\":75,\"configCode\":\"DEFAULT_LANG\",\"configGroup\":\"FIX\",\"description\":\"Default privilege language for TrueApp\",\"value\":\"FRONT\",\"createdBy\":\"ADMIN\",\"createdDate\":\"Nov 4, 2024, 1:51:42 PM\",\"modifiedBy\":\"Sorawut Teawjan\",\"modifiedDate\":\"Nov 5, 2024, 9:27:38 AM\"}",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.811Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|system config is {\"id\":75,\"configCode\":\"DEFAULT_LANG\",\"configGroup\":\"FIX\",\"description\":\"Default privilege language for TrueApp\",\"value\":\"FRONT\",\"createdBy\":\"ADMIN\",\"createdDate\":\"Nov 4, 2024, 1:51:42 PM\",\"modifiedBy\":\"Sorawut Teawjan\",\"modifiedDate\":\"Nov 5, 2024, 9:27:38 AM\"}"
+          ]
+        },
+        "sort": [
+          1777020651811
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "2aWvvp0BmXFpkG0kYWHj",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.811+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|end process handle language with response is TH",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.811Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.common.utils.RewardUtill|end process handle language with response is TH"
+          ]
+        },
+        "sort": [
+          1777020651811
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "3KWvvp0BmXFpkG0kYWHj",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.841+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|Data fetched from cache.",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.841Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|Data fetched from cache."
+          ]
+        },
+        "sort": [
+          1777020651841
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "3aWvvp0BmXFpkG0kYWHj",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.842+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|result error is {\"endpointStatusType\":\"B\",\"endpointStatusCode\":\"B-RWD-51215\",\"endpointResponseCode\":\"51215\",\"endpointErrorCode\":\"B-RWD-51215\",\"endpointErrorMessage\":\"ขออภัย...\",\"endpointErrorDescription\":\"ไม่พบข้อมูล\",\"httpStatus\":400,\"endpointResponseMessage\":\"ขออภัย...\"}",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.842Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.c.jpa.service.ErrorService|result error is {\"endpointStatusType\":\"B\",\"endpointStatusCode\":\"B-RWD-51215\",\"endpointResponseCode\":\"51215\",\"endpointErrorCode\":\"B-RWD-51215\",\"endpointErrorMessage\":\"ขออภัย...\",\"endpointErrorDescription\":\"ไม่พบข้อมูล\",\"httpStatus\":400,\"endpointResponseMessage\":\"ขออภัย...\"}"
+          ]
+        },
+        "sort": [
+          1777020651842
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "3qWvvp0BmXFpkG0kYWHj",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.842+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.t.ShelfTransaction|Get layout failed!",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.842Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.t.ShelfTransaction|Get layout failed!"
+          ]
+        },
+        "sort": [
+          1777020651842
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "4KWvvp0BmXFpkG0kYWHj",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.842+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.a.ControllerResponseAspect|[getLayout] Response Header: [], Body: GenericJsonResponse(status=StatusJsonResponse(statusType=B, errorCode=B-RWD-51215, errorMessage=layout default is empty, errorDescription=ไม่พบข้อมูล, hostId=trueapp-commonbe-reward-deploy-8458885dd-4gnxg, transactionId=trueapp20260424155051739636), data=null)",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.842Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.a.ControllerResponseAspect|[getLayout] Response Header: [], Body: GenericJsonResponse(status=StatusJsonResponse(statusType=B, errorCode=B-RWD-51215, errorMessage=layout default is empty, errorDescription=ไม่พบข้อมูล, hostId=trueapp-commonbe-reward-deploy-8458885dd-4gnxg, transactionId=@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@), data=null)"
+          ]
+        },
+        "sort": [
+          1777020651842
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260424",
+        "_id": "36Wvvp0BmXFpkG0kYWHj",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-24T15:50:51.842+07:00",
+          "message": "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|trueapp20260424155051739636|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.controller.ShelfController|End Get Layout : {\"status\":{\"statusType\":\"B\",\"errorCode\":\"B-RWD-51215\",\"errorMessage\":\"layout default is empty\",\"errorDescription\":\"ไม่พบข้อมูล\",\"hostId\":\"trueapp-commonbe-reward-deploy-8458885dd-4gnxg\",\"transactionId\":\"trueapp20260424155051739636\"}}",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-24T08:50:51.842Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |086b6812b8886-286204-160220e0--8|trueapp20260424155051737536|@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-49|Sync|t.c.t.c.r.controller.ShelfController|End Get Layout : {\"status\":{\"statusType\":\"B\",\"errorCode\":\"B-RWD-51215\",\"errorMessage\":\"layout default is empty\",\"errorDescription\":\"ไม่พบข้อมูล\",\"hostId\":\"trueapp-commonbe-reward-deploy-8458885dd-4gnxg\",\"transactionId\":\"@opensearch-dashboards-highlighted-field@trueapp20260424155051739636@/opensearch-dashboards-highlighted-field@\"}}"
+          ]
+        },
+        "sort": [
+          1777020651842
+        ]
+      }
+    ]
+  },
+  "aggregations": {
+    "2": {
+      "buckets": [
+        {
+          "key_as_string": "2026-04-24T15:30:00.000+07:00",
+          "key": 1777019400000,
+          "doc_count": 32
+        }
+      ]
+    }
+  }
+}

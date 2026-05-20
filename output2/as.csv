@@ -1,0 +1,168 @@
+﻿level|digitalId|txId|reqTxId|zone|brand|prdType|sourceSystem|reqIP|thread|mode|logger|message
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonlib.filter.ControllerFilter|"Received Endpoint: GET http://localhost:8081/reward/v1/shelf/getSectionHeader, Headers : x-tx-id:trueapp20260520093553254851; authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnRJZCI6InRydWVhcHB1YXQiLCJhcGlJZCI6IjJhZjh8MjIyZTB8MjcxMDB8MzBkNDB8NGUyMHw5YzQwfDB8MmVlMHxlYTYwfDE4NmEwfDFhZGIwfDI0OWYwfDFmYmQwfDI3MTB8NzUzMHwxMTE3MHxjMzUwfDE1ZjkwIiwibWV0aG9kIjoiU1dJVENIX0xPR0lOIiwiY3VzdG9tZXJJbmZvIjp7ImRpZ2l0YWxJZCI6IjkzOTNjMTM2ZjkzNDhiYWRlZmIwNjQ5YTE2M2JlNzQ5IiwicHJvZHVjdElkIjoiWkRWQkVEeE8xb2w1M211SXowOGZWaTZjQUVkZUJ2dTlKbDJ0T2RjYTdzUT0iLCJwcm9kdWN0QnJhbmQiOiJUTUgiLCJwcm9kdWN0VHlwZSI6IlBSRVBBSUQiLCJwcm9kdWN0U2VnbWVudCI6IlRVQyIsImN1c3RvbWVyVHlwZSI6IklOREkiLCJhY2N0U3ViVHlwZSI6IlBSRSIsImh5YnJpZEZsYWciOiJOIn0sInBhcmVudEluZm8iOnsiZGlnaXRhbElkIjoiOTM5M2MxMzZmOTM0OGJhZGVmYjA2NDlhMTYzYmU3NDkiLCJwcm9kdWN0SWQiOiJlQW1RSHlWUnliNGtpdFBCaVkzM3Y0Q29rV1lZYytpdFFYVy9kdi9EbHFNPSIsInByb2R1Y3RCcmFuZCI6IlRNSCIsInByb2R1Y3RUeXBlIjoiUFJFUEFJRCIsInByb2R1Y3RTZWdtZW50IjoiVFVDIiwiY3VzdG9tZXJUeXBlIjoiSU5ESSIsImFjY3RTdWJUeXBlIjoiUFJFIiwiaHlicmlkRmxhZyI6Ik4ifSwic2lkIjoiNzBhNmNlNjctNi0zLS04OS04LTI4LTIyOGFjOWU5OC0iLCJqdGkiOiI1YmY0ZWFhMC1iMGI0LTQxMjEtOTgzMy00NjE3MTIwYjQ5NjgiLCJpYXQiOjE3NzkyNDIzOTUsImlzcyI6InRydWVhcHAtY29tbW9uYmUtYXV0aGVuLWRlcGxveS1jNTdmYjY3OWIta2x3MngiLCJhdWQiOiJ0cnVlYXBwdWF0IiwiZXhwIjoxNzc5MzI4Nzk1fQ.fS1Oth7o1evqpE6kXhKLPEUtO1L24bA5QPTSrCuBZiE; user-agent:Dart/3.10 (dart:io); sourcesystemid:trueapp; sessionid:70a6ce67-6-3--89-8-28-228ac9e98-; deviceid:3E0CC7CA-5543-48C1-B0B6-4F9BDE40806C; platform:IOS; language:TH; version:11.0502.0; x-app-meta:eyJ2IjoiMS4wIiwiYXBwIjp7ImlkIjoidGguY28udHJ1ZWNvcnAuYmV0YSIsInYiOiIxMS4wNTAyLjAiLCJzcyI6InRydWVhcHAifSwiZGV2aWNlIjp7ImlkIjoiM0UwQ0M3Q0EtNTU0My00OEMxLUIwQjYtNEY5QkRFNDA4MDZDIiwicGYiOiJJT1MiLCJ2IjoiMjYuNC4yIiwiZGkiOiJpUGhvbmUxNywzIiwibW4iOiJpUGhvbmUiLCJiciI6IkFwcGxlIiwiamIiOiJmYWxzZSIsImVtIjoiZmFsc2UiLCJudCI6Im1vYmlsZSIsImRtIjoiZmFsc2UiLCJsYSI6IiIsImxvIjoiIn0sInVzZXIiOnsibCI6IlRIIiwic2kiOiI3MGE2Y2U2Ny02LTMtLTg5LTgtMjgtMjI4YWM5ZTk4LSIsImRndCI6IjkzOTNjMTM2ZjkzNDhiYWRlZmIwNjQ5YTE2M2JlNzQ5In19; x-customer-profile:{""clientId"":""trueappuat"",""apiId"":""2af8|222e0|27100|30d40|4e20|9c40|0|2ee0|ea60|186a0|1adb0|249f0|1fbd0|2710|7530|11170|c350|15f90"",""method"":""SWITCH_LOGIN"",""customerInfo"":{""digitalId"":""9393c136f9348badefb0649a163be749"",""productId"":""ZDVBEDxO1ol53muIz08fVi6cAEdeBvu9Jl2tOdca7sQ="",""productBrand"":""TMH"",""productType"":""PREPAID"",""productSegment"":""TUC"",""customerType"":""INDI"",""acctSubType"":""PRE"",""hybridFlag"":""N""},""parentInfo"":{""digitalId"":""9393c136f9348badefb0649a163be749"",""productId"":""eAmQHyVRyb4kitPBiY33v4CokWYYc+itQXW/dv/DlqM="",""productBrand"":""TMH"",""productType"":""PREPAID"",""productSegment"":""TUC"",""customerType"":""INDI"",""acctSubType"":""PRE"",""hybridFlag"":""N""},""sid"":""70a6ce67-6-3--89-8-28-228ac9e98-"",""jti"":""5bf4eaa0-b0b4-4121-9833-4617120b4968"",""iat"":1779242395,""iss"":""trueapp-commonbe-authen-deploy-c57fb679b-klw2x"",""aud"":""trueappuat"",""exp"":1779328795}; accept-encoding:gzip, x-gzip, deflate; host:localhost:8081; connection:keep-alive; "
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.aspect.SwapForLoggingAspect|========= aroundClearCacheTransaction =========
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.transaction.ShelfTransaction|TransactionResult getSectionHeader
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.transaction.ShelfTransaction|prepair data
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|start process handle language with and langFront is TH
+DEBUG|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|org.hibernate.SQL|"
+    select
+        rsc1_0.id,
+        rsc1_0.config_code,
+        rsc1_0.config_group,
+        rsc1_0.created_by,
+        rsc1_0.created_date,
+        rsc1_0.description,
+        rsc1_0.modified_by,
+        rsc1_0.modified_date,
+        rsc1_0.value 
+    from
+        rwd_system_config rsc1_0 
+    where
+        rsc1_0.config_code=? 
+        and rsc1_0.config_group=? 
+    fetch
+        first ? rows only"
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|"system config is {""id"":166,""configCode"":""DEFAULT_LANG"",""configGroup"":""FIX"",""description"":""Default privilege language for TrueApp"",""value"":""FRONT"",""createdBy"":""ADMIN"",""createdDate"":""Oct 17, 2024, 11:03:18 AM"",""modifiedBy"":""Jobeda Nur Akhi"",""modifiedDate"":""Oct 29, 2024, 4:35:36 AM""}"
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|end process handle language with response is TH
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.section.SectionService|Redis Key: S202506-063:getSectionHeader:TRUE:TH
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.redis.RedisCacheService|RedisCacheService get -> key: S202506-063:getSectionHeader:TRUE:TH
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.section.SectionService|Get shelf Service. : S202506-063
+DEBUG|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|org.hibernate.SQL|"
+    select
+        rsc1_0.id,
+        rsc1_0.config_code,
+        rsc1_0.config_group,
+        rsc1_0.created_by,
+        rsc1_0.created_date,
+        rsc1_0.description,
+        rsc1_0.modified_by,
+        rsc1_0.modified_date,
+        rsc1_0.value 
+    from
+        rwd_system_config rsc1_0 
+    where
+        rsc1_0.config_code=? 
+        and rsc1_0.config_group=? 
+    fetch
+        first ? rows only"
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.ShelfSectionHeaderService|maxRow = 16
+DEBUG|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|org.hibernate.SQL|"
+    select
+        rsc1_0.id,
+        rsc1_0.config_code,
+        rsc1_0.config_group,
+        rsc1_0.created_by,
+        rsc1_0.created_date,
+        rsc1_0.description,
+        rsc1_0.modified_by,
+        rsc1_0.modified_date,
+        rsc1_0.value 
+    from
+        rwd_system_config rsc1_0 
+    where
+        rsc1_0.config_code=?"
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.ShelfSectionHeaderService|usecmscontent = Y
+DEBUG|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|org.hibernate.SQL|"
+    select
+        count(rsd1_0.id) 
+    from
+        rwd_section_detail rsd1_0 
+    where
+        rsd1_0.section_id=?"
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.ShelfSectionHeaderService|total_section_detail = 7
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.ShelfSectionHeaderService|getSectionHeader cvgList size = 0 
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.ShelfSectionHeaderService|getSectionHeader totalSectionDetail != 1 
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.ShelfSectionHeaderService|getSectionHeaderDataFromDatabase
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.cms.jpa.service.ShelfCmsService|Fetching section header for sectionId: S202506-063, lang: TH, brand: TRUE
+DEBUG|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|org.hibernate.SQL|"
+    SELECT
+        b.section_id,
+        b.priority,
+        b.seq_no,
+        b.item_name,
+        a.brand_code,
+        b.item_icon,
+        b.item_image1x1,
+        b.item_image4x3,
+        b.item_image16x9,
+        b.item_image9x16,
+        b.item_type_code,
+        b.item_subtype,
+        b.shelf_type_code,
+        b.item_mapping,
+        b.item_mapping2,
+        b.dummy_flag,
+        (SELECT
+            s.item_display_name         
+        FROM
+            rwd_section_detail_display_name s         
+        WHERE
+            s.section_id = b.section_id           
+            AND  s.seq_no = b.seq_no           
+            AND  s.lang = ?) AS item_display_name,
+        (SELECT
+            s.item_display_name         
+        FROM
+            rwd_section_detail_display_name s         
+        WHERE
+            s.section_id = b.section_id           
+            AND  s.seq_no = b.seq_no           
+            AND  s.lang = 'EN') AS item_display_name_en,
+        (SELECT
+            rsdn.section_display_name         
+        FROM
+            rwd_section_display_name rsdn         
+        WHERE
+            rsdn.section_id = b.section_id           
+            AND  rsdn.lang = ?) AS section_display_name,
+        (SELECT
+            rsdn.section_display_name         
+        FROM
+            rwd_section_display_name rsdn         
+        WHERE
+            rsdn.section_id = b.section_id           
+            AND  rsdn.lang = 'EN') AS section_display_name_en,
+        (SELECT
+            rsdc.content         
+        FROM
+            rwd_section_detail_content rsdc         
+        WHERE
+            rsdc.section_id = b.section_id           
+            AND  rsdc.seq_no = b.seq_no           
+            AND  rsdc.lang = ?) AS content,
+        (SELECT
+            rsdc.content         
+        FROM
+            rwd_section_detail_content rsdc         
+        WHERE
+            rsdc.section_id = b.section_id           
+            AND  rsdc.seq_no = b.seq_no           
+            AND  rsdc.lang = 'EN') AS content_en 
+    FROM
+        rwd_section a        
+    INNER JOIN
+        rwd_section_detail b 
+            ON a.section_id = b.section_id 
+    WHERE
+        a.section_id = ?   
+        AND  a.brand_code = ? 
+    ORDER BY
+        b.priority"
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.ShelfSectionHeaderService|get shelf info from db = 7 item(s)
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.ShelfSectionHeaderService|isPersonalize = false is TMHorDTAC true max row 16 
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.ShelfSectionHeaderService|mapSectionHeaderDataFromDatabase
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.ShelfSectionHeaderService|"ShelfSectionHeaderMapperDto : [{""section_id"":""S202506-063"",""priority"":1,""seq_no"":5,""item_name"":""Test ratio deal_1"",""item_image16x9"":""https://trueapp-static-uat.true.th/images/2025-10/shelf-section-details/9bc36bf6-bd02-4508-8ea2-d9934814e578.png"",""item_type_code"":""DEAL"",""item_mapping"":""1Ox5vKdpDKKn"",""dummy_flag"":""N"",""item_display_name"":""Test ratio deal_1"",""item_display_name_en"":""Test ratio deal_1"",""brand_code"":""TRUE"",""section_display_name"":""Highlights (TH)"",""section_display_name_en"":""Highlights (EN)"",""content_en"":""\u003cp\u003eTest ratio deal_1\u003c/p\u003e""},{""section_id"":""S202506-063"",""priority"":2,""seq_no"":6,""item_name"":""Test ratio deal_2"",""item_image9x16"":""https://trueapp-static-uat.true.th/images/2026-03/shelf-section-details/3947cd8c-9d37-4b3d-88cf-6cc0ec632a02.png"",""item_type_code"":""DEAL"",""item_mapping"":""RKVzRv5rP0AK"",""dummy_flag"":""N"",""item_display_name"":""Test ratio deal_2"",""item_display_name_en"":""Test ratio deal_2"",""brand_code"":""TRUE"",""section_display_name"":""Highlights (TH)"",""section_display_name_en"":""Highlights (EN)"",""content_en"":""\u003cp\u003eTest ratio deal_2\u0026nbsp;\u003c/p\u003e""},{""section_id"":""S202506-063"",""priority"":3,""seq_no"":1,""item_name"":""Deal Privilege"",""item_image16x9"":""https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/e6355a10-a404-40a3-8e0e-e025cd1fe5ba.png"",""item_type_code"":""DEAL"",""item_mapping"":""gPaRkGRxlM0p"",""dummy_flag"":""N"",""item_display_name"":""Deal Privilege (TH)"",""item_display_name_en"":""Deal Privilege (EN)"",""brand_code"":""TRUE"",""section_display_name"":""Highlights (TH)"",""section_display_name_en"":""Highlights (EN)"",""content_en"":""\u003cp\u003eDeal Privilege (EN)\u003c/p\u003e""},{""section_id"":""S202506-063"",""priority"":4,""seq_no"":2,""item_name"":""THEMATIC"",""item_image16x9"":""https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/b5967746-d2fb-4581-ba15-b865b9948101.png"",""item_type_code"":""THEMATIC"",""item_mapping"":""6NRw86PbjwZB"",""dummy_flag"":""N"",""item_display_name"":""THEMATIC (TH)"",""item_display_name_en"":""THEMATIC (EN)"",""brand_code"":""TRUE"",""section_display_name"":""Highlights (TH)"",""section_display_name_en"":""Highlights (EN)"",""content_en"":""\u003cp\u003eTHEMATIC (EN)\u003c/p\u003e""},{""section_id"":""S202506-063"",""priority"":5,""seq_no"":3,""item_name"":""Merchant"",""item_image16x9"":""https://trueapp-static-uat.true.th/images/2025-10/shelf-section-details/35dac24c-f884-448a-9646-1631f4276a7d.png"",""item_type_code"":""MERCHANT"",""item_mapping"":""ovzAryZXPe0k"",""dummy_flag"":""N"",""item_display_name"":""Merchant (TH)"",""item_display_name_en"":""Merchant (EN)"",""brand_code"":""TRUE"",""section_display_name"":""Highlights (TH)"",""section_display_name_en"":""Highlights (EN)"",""content_en"":""\u003cp\u003eMerchant (EN)\u003c/p\u003e""},{""section_id"":""S202506-063"",""priority"":6,""seq_no"":4,""item_name"":""Article"",""item_image16x9"":""https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/8ffabf36-45be-463a-9b0f-fb692d6b47e7.png"",""item_type_code"":""ARTICLE"",""item_mapping"":""A8EKAK7nmMxN"",""dummy_flag"":""N"",""item_display_name"":""Article (TH)"",""item_display_name_en"":""Article (EN)"",""brand_code"":""TRUE"",""section_display_name"":""Highlights (TH)"",""section_display_name_en"":""Highlights (EN)"",""content_en"":""\u003cp\u003eArticle (EN)\u003c/p\u003e""},{""section_id"":""S202506-063"",""priority"":7,""seq_no"":7,""item_name"":""เครื่องดื่มโบราณ"",""item_type_code"":""DEAL"",""item_mapping"":""KnwZ6KGQoGge"",""dummy_flag"":""N"",""item_display_name"":""เครื่องดื่มโบราณ"",""item_display_name_en"":""เครื่องดื่มโบราณ"",""brand_code"":""TRUE"",""section_display_name"":""Highlights (TH)"",""section_display_name_en"":""Highlights (EN)"",""content_en"":""\u003cp\u003eเครื่องดื่มโบราณ\u003c/p\u003e""}]"
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|[CacheTtlUtil] Current time : 2026-05-20T09:35:53.291035618+07:00[Asia/Bangkok]
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|[CacheTtlUtil] Expire at    : 2026-05-20T12:00+07:00[Asia/Bangkok]
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|[CacheTtlUtil] TTL (seconds): 8646
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.service.section.SectionService|sessionTime for TTL cache : 8646
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.redis.RedisCacheService|RedisCacheService put -> key: S202506-063:getSectionHeader:TRUE:TH, value: ShelfSectionHeaderRsp(sectionId=S202506-063, lang=TH, displayTypeCode=AUTOSLIDE_BANNER, sectionItem=[SectionItemHeaderRsp(itemNo=1, itemName=Test ratio deal_1, itemDisplayName=Test ratio deal_1, itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=https://trueapp-static-uat.true.th/images/2025-10/shelf-section-details/9bc36bf6-bd02-4508-8ea2-d9934814e578.png, image9x16=null), itemType=DEAL, itemSubtype=null, shelfType=null, itemMapping=1Ox5vKdpDKKn, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>Test ratio deal_1</p>), SectionItemHeaderRsp(itemNo=2, itemName=Test ratio deal_2, itemDisplayName=Test ratio deal_2, itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=null, image9x16=https://trueapp-static-uat.true.th/images/2026-03/shelf-section-details/3947cd8c-9d37-4b3d-88cf-6cc0ec632a02.png), itemType=DEAL, itemSubtype=null, shelfType=null, itemMapping=RKVzRv5rP0AK, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>Test ratio deal_2&nbsp;</p>), SectionItemHeaderRsp(itemNo=3, itemName=Deal Privilege, itemDisplayName=Deal Privilege (TH), itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/e6355a10-a404-40a3-8e0e-e025cd1fe5ba.png, image9x16=null), itemType=DEAL, itemSubtype=null, shelfType=null, itemMapping=gPaRkGRxlM0p, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>Deal Privilege (EN)</p>), SectionItemHeaderRsp(itemNo=4, itemName=THEMATIC, itemDisplayName=THEMATIC (TH), itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/b5967746-d2fb-4581-ba15-b865b9948101.png, image9x16=null), itemType=THEMATIC, itemSubtype=null, shelfType=null, itemMapping=6NRw86PbjwZB, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>THEMATIC (EN)</p>), SectionItemHeaderRsp(itemNo=5, itemName=Merchant, itemDisplayName=Merchant (TH), itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=https://trueapp-static-uat.true.th/images/2025-10/shelf-section-details/35dac24c-f884-448a-9646-1631f4276a7d.png, image9x16=null), itemType=MERCHANT, itemSubtype=null, shelfType=null, itemMapping=ovzAryZXPe0k, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>Merchant (EN)</p>), SectionItemHeaderRsp(itemNo=6, itemName=Article, itemDisplayName=Article (TH), itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/8ffabf36-45be-463a-9b0f-fb692d6b47e7.png, image9x16=null), itemType=ARTICLE, itemSubtype=null, shelfType=null, itemMapping=A8EKAK7nmMxN, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>Article (EN)</p>), SectionItemHeaderRsp(itemNo=7, itemName=เครื่องดื่มโบราณ, itemDisplayName=เครื่องดื่มโบราณ, itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=null, image9x16=null), itemType=DEAL, itemSubtype=null, shelfType=null, itemMapping=KnwZ6KGQoGge, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>เครื่องดื่มโบราณ</p>)]), expireSec: 8646
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|===== Before  swapForLogging =====
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|originalMessage :Success with data
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|originalDescription :The transaction has been successfully completed
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|===== After swapForLogging =====
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|endpointResult.getEndpointErrorMessage :Success with data
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|endpointResult.getEndpointResponseMessage :Successfully processed with data
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.common.utils.RewardUtill|endpointResult.getEndpointErrorDescription :The transaction has been successfully completed
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonapi.reward.controller.ShelfController|"End Get SectionHeader : {""status"":{""statusType"":""S"",""errorCode"":""S-RWD-11111"",""errorMessage"":""Successfully processed with data"",""errorDescription"":""The transaction has been successfully completed"",""hostId"":""trueapp-commonbe-reward-deploy-b996d46fc-p8vp6"",""transactionId"":""trueapp20260520093553256673""},""data"":{""sectionId"":""S202506-063"",""lang"":""TH"",""displayTypeCode"":""AUTOSLIDE_BANNER"",""sectionItem"":[{""itemNo"":""1"",""itemName"":""Test ratio deal_1"",""itemDisplayName"":""Test ratio deal_1"",""itemImageList"":{""image16x9"":""https://trueapp-static-uat.true.th/images/2025-10/shelf-section-details/9bc36bf6-bd02-4508-8ea2-d9934814e578.png""},""itemType"":""DEAL"",""itemMapping"":""1Ox5vKdpDKKn"",""dummyFlag"":""N"",""sectionDisplayName"":""Highlights (TH)"",""sectionDetailContents"":""\u003cp\u003eTest ratio deal_1\u003c/p\u003e""},{""itemNo"":""2"",""itemName"":""Test ratio deal_2"",""itemDisplayName"":""Test ratio deal_2"",""itemImageList"":{""image9x16"":""https://trueapp-static-uat.true.th/images/2026-03/shelf-section-details/3947cd8c-9d37-4b3d-88cf-6cc0ec632a02.png""},""itemType"":""DEAL"",""itemMapping"":""RKVzRv5rP0AK"",""dummyFlag"":""N"",""sectionDisplayName"":""Highlights (TH)"",""sectionDetailContents"":""\u003cp\u003eTest ratio deal_2\u0026nbsp;\u003c/p\u003e""},{""itemNo"":""3"",""itemName"":""Deal Privilege"",""itemDisplayName"":""Deal Privilege (TH)"",""itemImageList"":{""image16x9"":""https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/e6355a10-a404-40a3-8e0e-e025cd1fe5ba.png""},""itemType"":""DEAL"",""itemMapping"":""gPaRkGRxlM0p"",""dummyFlag"":""N"",""sectionDisplayName"":""Highlights (TH)"",""sectionDetailContents"":""\u003cp\u003eDeal Privilege (EN)\u003c/p\u003e""},{""itemNo"":""4"",""itemName"":""THEMATIC"",""itemDisplayName"":""THEMATIC (TH)"",""itemImageList"":{""image16x9"":""https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/b5967746-d2fb-4581-ba15-b865b9948101.png""},""itemType"":""THEMATIC"",""itemMapping"":""6NRw86PbjwZB"",""dummyFlag"":""N"",""sectionDisplayName"":""Highlights (TH)"",""sectionDetailContents"":""\u003cp\u003eTHEMATIC (EN)\u003c/p\u003e""},{""itemNo"":""5"",""itemName"":""Merchant"",""itemDisplayName"":""Merchant (TH)"",""itemImageList"":{""image16x9"":""https://trueapp-static-uat.true.th/images/2025-10/shelf-section-details/35dac24c-f884-448a-9646-1631f4276a7d.png""},""itemType"":""MERCHANT"",""itemMapping"":""ovzAryZXPe0k"",""dummyFlag"":""N"",""sectionDisplayName"":""Highlights (TH)"",""sectionDetailContents"":""\u003cp\u003eMerchant (EN)\u003c/p\u003e""},{""itemNo"":""6"",""itemName"":""Article"",""itemDisplayName"":""Article (TH)"",""itemImageList"":{""image16x9"":""https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/8ffabf36-45be-463a-9b0f-fb692d6b47e7.png""},""itemType"":""ARTICLE"",""itemMapping"":""A8EKAK7nmMxN"",""dummyFlag"":""N"",""sectionDisplayName"":""Highlights (TH)"",""sectionDetailContents"":""\u003cp\u003eArticle (EN)\u003c/p\u003e""},{""itemNo"":""7"",""itemName"":""เครื่องดื่มโบราณ"",""itemDisplayName"":""เครื่องดื่มโบราณ"",""itemImageList"":{},""itemType"":""DEAL"",""itemMapping"":""KnwZ6KGQoGge"",""dummyFlag"":""N"",""sectionDisplayName"":""Highlights (TH)"",""sectionDetailContents"":""\u003cp\u003eเครื่องดื่มโบราณ\u003c/p\u003e""}]}}"
+INFO|9393c136f9348badefb0649a163be749|trueapp20260520093553256673|trueapp20260520093553254851|UAT|TMH|PREPAID|trueapp|127.0.0.1|trueapp|TMH|http-nio-8081-exec-25|Sync|th.co.truecorp.commonlib.aspect.ControllerResponseAspect|[getSectionHeader] Response Header: [], Body: GenericJsonResponse(status=StatusJsonResponse(statusType=S, errorCode=S-RWD-11111, errorMessage=Successfully processed with data, errorDescription=The transaction has been successfully completed, hostId=trueapp-commonbe-reward-deploy-b996d46fc-p8vp6, transactionId=trueapp20260520093553256673), data=ShelfSectionHeaderRsp(sectionId=S202506-063, lang=TH, displayTypeCode=AUTOSLIDE_BANNER, sectionItem=[SectionItemHeaderRsp(itemNo=1, itemName=Test ratio deal_1, itemDisplayName=Test ratio deal_1, itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=https://trueapp-static-uat.true.th/images/2025-10/shelf-section-details/9bc36bf6-bd02-4508-8ea2-d9934814e578.png, image9x16=null), itemType=DEAL, itemSubtype=null, shelfType=null, itemMapping=1Ox5vKdpDKKn, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>Test ratio deal_1</p>), SectionItemHeaderRsp(itemNo=2, itemName=Test ratio deal_2, itemDisplayName=Test ratio deal_2, itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=null, image9x16=https://trueapp-static-uat.true.th/images/2026-03/shelf-section-details/3947cd8c-9d37-4b3d-88cf-6cc0ec632a02.png), itemType=DEAL, itemSubtype=null, shelfType=null, itemMapping=RKVzRv5rP0AK, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>Test ratio deal_2&nbsp;</p>), SectionItemHeaderRsp(itemNo=3, itemName=Deal Privilege, itemDisplayName=Deal Privilege (TH), itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/e6355a10-a404-40a3-8e0e-e025cd1fe5ba.png, image9x16=null), itemType=DEAL, itemSubtype=null, shelfType=null, itemMapping=gPaRkGRxlM0p, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>Deal Privilege (EN)</p>), SectionItemHeaderRsp(itemNo=4, itemName=THEMATIC, itemDisplayName=THEMATIC (TH), itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/b5967746-d2fb-4581-ba15-b865b9948101.png, image9x16=null), itemType=THEMATIC, itemSubtype=null, shelfType=null, itemMapping=6NRw86PbjwZB, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>THEMATIC (EN)</p>), SectionItemHeaderRsp(itemNo=5, itemName=Merchant, itemDisplayName=Merchant (TH), itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=https://trueapp-static-uat.true.th/images/2025-10/shelf-section-details/35dac24c-f884-448a-9646-1631f4276a7d.png, image9x16=null), itemType=MERCHANT, itemSubtype=null, shelfType=null, itemMapping=ovzAryZXPe0k, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>Merchant (EN)</p>), SectionItemHeaderRsp(itemNo=6, itemName=Article, itemDisplayName=Article (TH), itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=https://trueapp-static-uat.true.th/images/2025-06/shelf-section-details/8ffabf36-45be-463a-9b0f-fb692d6b47e7.png, image9x16=null), itemType=ARTICLE, itemSubtype=null, shelfType=null, itemMapping=A8EKAK7nmMxN, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>Article (EN)</p>), SectionItemHeaderRsp(itemNo=7, itemName=เครื่องดื่มโบราณ, itemDisplayName=เครื่องดื่มโบราณ, itemImageList=ShelfSectionImageHeaderRsp(imageIcon=null, image1x1=null, image3x2=null, image4x3=null, image16x9=null, image9x16=null), itemType=DEAL, itemSubtype=null, shelfType=null, itemMapping=KnwZ6KGQoGge, itemMapping2=null, dummyFlag=N, interest=null, sectionDisplayName=Highlights (TH), sectionDetailContents=<p>เครื่องดื่มโบราณ</p>)]))

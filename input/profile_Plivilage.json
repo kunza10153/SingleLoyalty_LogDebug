@@ -1,0 +1,1779 @@
+{
+  "took": 1036,
+  "timed_out": false,
+  "_shards": {
+    "total": 35,
+    "successful": 35,
+    "skipped": 20,
+    "failed": 0
+  },
+  "hits": {
+    "total": 73,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "dJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.764+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|gen digital 2025 version",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.764Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|gen digital 2025 version"
+          ]
+        },
+        "sort": [
+          1776840099764
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "dZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.764+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|call mergeFuncGetDigitalIdOrProductId",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.764Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|call mergeFuncGetDigitalIdOrProductId"
+          ]
+        },
+        "sort": [
+          1776840099764
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "cpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.764+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-3|Sync|t.c.t.c.filter.ControllerFilter|Received Endpoint: GET http://trueapp-commonbe-profile-svc/profile/api/v1/digitalId/b0c16df4e7b53ea7c67f778b07eeddfe, Headers : accept:application/json, application/*+json; sourcesystemid:trueapp; sessionid:2214718d-916742252f0f-f9-29f4492; platform:IOS; version:11.0402.0; deviceid:5D73499C-9BB5-4593-8AA3-34BB4576EC81; authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnRJZCI6InRydWVhcHBwcmVwcm9kIiwiYXBpSWQiOiIyYWY4fDI3MWF8MjIyZTB8MjcxMDB8NGUyMHw5YzQwfDJlZTB8ZWE2MHwxODZhMHwxYWRiMHwxZmJkMHwyNzEwfDc1MzB8YzM1MHwxMTE3MHwxNWY5MCIsIm1ldGhvZCI6IlNXSVRDSF9MT0dJTiIsImN1c3RvbWVySW5mbyI6eyJkaWdpdGFsSWQiOiJiMGMxNmRmNGU3YjUzZWE3YzY3Zjc3OGIwN2VlZGRmZSIsInByb2R1Y3RJZCI6InhDSEFjWU5zNzFZTDN4QXhNNFkzT2tDeHZQaW1nVEtrZE1tL21pcTNIYlk9IiwicHJvZHVjdEJyYW5kIjoiVE1IIiwicHJvZHVjdFR5cGUiOiJQT1NUUEFJRCIsInByb2R1Y3RTZWdtZW50IjoiVFVDIiwiY3VzdG9tZXJUeXBlIjoiSU5ESSIsImFjY3RTdWJUeXBlIjoiUlBJIiwiaHlicmlkRmxhZyI6Ik4ifSwicGFyZW50SW5mbyI6eyJkaWdpdGFsSWQiOiJiMGMxNmRmNGU3YjUzZWE3YzY3Zjc3OGIwN2VlZGRmZSIsInByb2R1Y3RJZCI6IjFGNWxzUHdQdTB0WXV0Y3k5U2RzOWJRNzZxbVJJTE1icGdIbUQwRnlnUTg9IiwicHJvZHVjdEJyYW5kIjoiVE1IIiwicHJvZHVjdFR5cGUiOiJQT1NUUEFJRCIsInByb2R1Y3RTZWdtZW50IjoiVFVDIiwiY3VzdG9tZXJUeXBlIjoiSU5ESSIsImFjY3RTdWJUeXBlIjoiUlBJIiwiaHlicmlkRmxhZyI6Ik4ifSwic2lkIjoiNjYtZWE3MDBjYzIyNDJjNjYtOC00LWFkMjYwMjAwNmMiLCJqdGkiOiIwNjYwNzIzZS0wZTBjLTQ1ZGMtYmQ4My0zZjQ2YmQ2MGJkYzIiLCJpYXQiOjE3NzY4Mzk5MTAsImlzcyI6InRydWVhcHAtY29tbW9uYmUtYXV0aGVuLWRlcGxveS04NjhjZDRjYmI4LTlnbnM2IiwiYXVkIjoidHJ1ZWFwcHByZXByb2QiLCJleHAiOjE3NzY4NDA4MTB9.LQR2ZG6KUuNSlBA8LqtG3-sCO98bHCvlMOAkueNNVxI; language:TH; x-tx-id:trueapp20260422134139757873; apirefer:/api/v2/home/profile.GET; x-customer-profile:{\"clientId\":\"trueapppreprod\",\"apiId\":\"2af8|271a|222e0|27100|4e20|9c40|2ee0|ea60|186a0|1adb0|1fbd0|2710|7530|c350|11170|15f90\",\"method\":\"SWITCH_LOGIN\",\"customerInfo\":{\"digitalId\":\"b0c16df4e7b53ea7c67f778b07eeddfe\",\"productId\":\"xCHAcYNs71YL3xAxM4Y3OkCxvPimgTKkdMm/miq3HbY=\",\"productBrand\":\"TMH\",\"productType\":\"POSTPAID\",\"productSegment\":\"TUC\",\"customerType\":\"INDI\",\"acctSubType\":\"RPI\",\"hybridFlag\":\"N\"},\"parentInfo\":{\"digitalId\":\"b0c16df4e7b53ea7c67f778b07eeddfe\",\"productId\":\"1F5lsPwPu0tYutcy9Sds9bQ76qmRILMbpgHmD0FygQ8=\",\"productBrand\":\"TMH\",\"productType\":\"POSTPAID\",\"productSegment\":\"TUC\",\"customerType\":\"INDI\",\"acctSubType\":\"RPI\",\"hybridFlag\":\"N\"}}; x-app-meta:eyJ2IjoiMS4wIiwiYXBwIjp7ImlkIjoidGguY28udHJ1ZWNvcnAuYmV0YSIsInYiOiIxMS4wNDAyLjAiLCJzcyI6InRydWVhcHAifSwiZGV2aWNlIjp7ImlkIjoiNUQ3MzQ5OUMtOUJCNS00NTkzLThBQTMtMzRCQjQ1NzZFQzgxIiwicGYiOiJJT1MiLCJ2IjoiMjYuMy4xIiwiZGkiOiJpUGhvbmUxNywzIiwibW4iOiJpUGhvbmUiLCJiciI6IkFwcGxlIiwiamIiOiJmYWxzZSIsImVtIjoiZmFsc2UiLCJudCI6Im1vYmlsZSIsImRtIjoiZmFsc2UiLCJsYSI6IiIsImxvIjoiIn0sInVzZXIiOnsibCI6IlRIIiwic2kiOiIyMjE0NzE4ZC05MTY3NDIyNTJmMGYtZjktMjlmNDQ5MiIsImRndCI6ImIwYzE2ZGY0ZTdiNTNlYTdjNjdmNzc4YjA3ZWVkZGZlIn19; content-type:application/json; accept-encoding:gzip, x-gzip, deflate; host:trueapp-commonbe-profile-svc; connection:keep-alive; user-agent:Apache-HttpClient/5.3.1 (Java/17.0.18); ",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.764Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-3|Sync|t.c.t.c.filter.ControllerFilter|Received Endpoint: GET http://trueapp-commonbe-profile-svc/profile/api/v1/digitalId/b0c16df4e7b53ea7c67f778b07eeddfe, Headers : accept:application/json, application/*+json; sourcesystemid:trueapp; sessionid:2214718d-916742252f0f-f9-29f4492; platform:IOS; version:11.0402.0; deviceid:5D73499C-9BB5-4593-8AA3-34BB4576EC81; authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnRJZCI6InRydWVhcHBwcmVwcm9kIiwiYXBpSWQiOiIyYWY4fDI3MWF8MjIyZTB8MjcxMDB8NGUyMHw5YzQwfDJlZTB8ZWE2MHwxODZhMHwxYWRiMHwxZmJkMHwyNzEwfDc1MzB8YzM1MHwxMTE3MHwxNWY5MCIsIm1ldGhvZCI6IlNXSVRDSF9MT0dJTiIsImN1c3RvbWVySW5mbyI6eyJkaWdpdGFsSWQiOiJiMGMxNmRmNGU3YjUzZWE3YzY3Zjc3OGIwN2VlZGRmZSIsInByb2R1Y3RJZCI6InhDSEFjWU5zNzFZTDN4QXhNNFkzT2tDeHZQaW1nVEtrZE1tL21pcTNIYlk9IiwicHJvZHVjdEJyYW5kIjoiVE1IIiwicHJvZHVjdFR5cGUiOiJQT1NUUEFJRCIsInByb2R1Y3RTZWdtZW50IjoiVFVDIiwiY3VzdG9tZXJUeXBlIjoiSU5ESSIsImFjY3RTdWJUeXBlIjoiUlBJIiwiaHlicmlkRmxhZyI6Ik4ifSwicGFyZW50SW5mbyI6eyJkaWdpdGFsSWQiOiJiMGMxNmRmNGU3YjUzZWE3YzY3Zjc3OGIwN2VlZGRmZSIsInByb2R1Y3RJZCI6IjFGNWxzUHdQdTB0WXV0Y3k5U2RzOWJRNzZxbVJJTE1icGdIbUQwRnlnUTg9IiwicHJvZHVjdEJyYW5kIjoiVE1IIiwicHJvZHVjdFR5cGUiOiJQT1NUUEFJRCIsInByb2R1Y3RTZWdtZW50IjoiVFVDIiwiY3VzdG9tZXJUeXBlIjoiSU5ESSIsImFjY3RTdWJUeXBlIjoiUlBJIiwiaHlicmlkRmxhZyI6Ik4ifSwic2lkIjoiNjYtZWE3MDBjYzIyNDJjNjYtOC00LWFkMjYwMjAwNmMiLCJqdGkiOiIwNjYwNzIzZS0wZTBjLTQ1ZGMtYmQ4My0zZjQ2YmQ2MGJkYzIiLCJpYXQiOjE3NzY4Mzk5MTAsImlzcyI6InRydWVhcHAtY29tbW9uYmUtYXV0aGVuLWRlcGxveS04NjhjZDRjYmI4LTlnbnM2IiwiYXVkIjoidHJ1ZWFwcHByZXByb2QiLCJleHAiOjE3NzY4NDA4MTB9.LQR2ZG6KUuNSlBA8LqtG3-sCO98bHCvlMOAkueNNVxI; language:TH; x-tx-id:trueapp20260422134139757873; apirefer:/api/v2/home/profile.GET; x-customer-profile:{\"clientId\":\"trueapppreprod\",\"apiId\":\"2af8|271a|222e0|27100|4e20|9c40|2ee0|ea60|186a0|1adb0|1fbd0|2710|7530|c350|11170|15f90\",\"method\":\"SWITCH_LOGIN\",\"customerInfo\":{\"digitalId\":\"b0c16df4e7b53ea7c67f778b07eeddfe\",\"productId\":\"xCHAcYNs71YL3xAxM4Y3OkCxvPimgTKkdMm/miq3HbY=\",\"productBrand\":\"TMH\",\"productType\":\"POSTPAID\",\"productSegment\":\"TUC\",\"customerType\":\"INDI\",\"acctSubType\":\"RPI\",\"hybridFlag\":\"N\"},\"parentInfo\":{\"digitalId\":\"b0c16df4e7b53ea7c67f778b07eeddfe\",\"productId\":\"1F5lsPwPu0tYutcy9Sds9bQ76qmRILMbpgHmD0FygQ8=\",\"productBrand\":\"TMH\",\"productType\":\"POSTPAID\",\"productSegment\":\"TUC\",\"customerType\":\"INDI\",\"acctSubType\":\"RPI\",\"hybridFlag\":\"N\"}}; x-app-meta:eyJ2IjoiMS4wIiwiYXBwIjp7ImlkIjoidGguY28udHJ1ZWNvcnAuYmV0YSIsInYiOiIxMS4wNDAyLjAiLCJzcyI6InRydWVhcHAifSwiZGV2aWNlIjp7ImlkIjoiNUQ3MzQ5OUMtOUJCNS00NTkzLThBQTMtMzRCQjQ1NzZFQzgxIiwicGYiOiJJT1MiLCJ2IjoiMjYuMy4xIiwiZGkiOiJpUGhvbmUxNywzIiwibW4iOiJpUGhvbmUiLCJiciI6IkFwcGxlIiwiamIiOiJmYWxzZSIsImVtIjoiZmFsc2UiLCJudCI6Im1vYmlsZSIsImRtIjoiZmFsc2UiLCJsYSI6IiIsImxvIjoiIn0sInVzZXIiOnsibCI6IlRIIiwic2kiOiIyMjE0NzE4ZC05MTY3NDIyNTJmMGYtZjktMjlmNDQ5MiIsImRndCI6ImIwYzE2ZGY0ZTdiNTNlYTdjNjdmNzc4YjA3ZWVkZGZlIn19; content-type:application/json; accept-encoding:gzip, x-gzip, deflate; host:trueapp-commonbe-profile-svc; connection:keep-alive; user-agent:Apache-HttpClient/5.3.1 (Java/17.0.18);"
+          ]
+        },
+        "sort": [
+          1776840099764
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "d5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.765+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|call mergeFuncGetDigitalIdOrProductId",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.765Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|call mergeFuncGetDigitalIdOrProductId"
+          ]
+        },
+        "sort": [
+          1776840099765
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "dpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.765+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|call mergeFuncGetDigitalIdOrProductId",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.765Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|call mergeFuncGetDigitalIdOrProductId"
+          ]
+        },
+        "sort": [
+          1776840099765
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "fpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.769+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|locked ok >>MANAGE:PREPROD:66646327670",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.769Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|locked ok >>MANAGE:PREPROD:66646327670"
+          ]
+        },
+        "sort": [
+          1776840099769
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "f5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.769+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.redis.RedisCacheService|RedisCacheService get -> key: AOU:b0c16df4e7b53ea7c67f778b07eeddfe",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.769Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.redis.RedisCacheService|RedisCacheService get -> key: AOU:b0c16df4e7b53ea7c67f778b07eeddfe"
+          ]
+        },
+        "sort": [
+          1776840099769
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "gJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.770+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.m.s.ChildGroupServiceImpl|AOU info found in cache for digitalId=b0c16df4e7b53ea7c67f778b07eeddfe",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.770Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.m.s.ChildGroupServiceImpl|AOU info found in cache for digitalId=b0c16df4e7b53ea7c67f778b07eeddfe"
+          ]
+        },
+        "sort": [
+          1776840099770
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "gpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.770+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|return digitalId follow response table.",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.770Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|return digitalId follow response table."
+          ]
+        },
+        "sort": [
+          1776840099770
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "gZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.770+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService| found >> DigitalId(id=b0c16df4e7b53ea7c67f778b07eeddfe, digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, product=Product(productId=l+1UWvFZ7yx8fFDORE+yyw==, productBrand=TMH, productStatus=Active, productType=POSTPAID, productSegment=TUC, bcBan=, ban=G3B0mzExBkYOg/1TEp1kKg==, multiSimLevel=, mainConvergenceCode=, assetGroupId=, multiSimIndicator=, companyCode=RF, companyDescription=True Move H Universal Communication Co., Ltd, subscriberId=M8REs53X+K6T3JhhwO76Pg==, subType=RPI), customer=Customer(customerIdentity=bcUlYq0ZWhYsWgO77/yZDQ==, customerIdentityType=I, customerType=INDI, customerNumber=64325250, birthday=2002-11-26), status=A, lastUpdateTime=Wed Apr 22 13:20:11 GMT+07:00 2026, createTime=Thu Feb 19 09:45:54 GMT+07:00 2026)",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.770Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-3|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService| found >> DigitalId(id=b0c16df4e7b53ea7c67f778b07eeddfe, digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, product=Product(productId=l+1UWvFZ7yx8fFDORE+yyw==, productBrand=TMH, productStatus=Active, productType=POSTPAID, productSegment=TUC, bcBan=, ban=G3B0mzExBkYOg/1TEp1kKg==, multiSimLevel=, mainConvergenceCode=, assetGroupId=, multiSimIndicator=, companyCode=RF, companyDescription=True Move H Universal Communication Co., Ltd, subscriberId=M8REs53X+K6T3JhhwO76Pg==, subType=RPI), customer=Customer(customerIdentity=bcUlYq0ZWhYsWgO77/yZDQ==, customerIdentityType=I, customerType=INDI, customerNumber=64325250, birthday=2002-11-26), status=A, lastUpdateTime=Wed Apr 22 13:20:11 GMT+07:00 2026, createTime=Thu Feb 19 09:45:54 GMT+07:00 2026)"
+          ]
+        },
+        "sort": [
+          1776840099770
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "iJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.772+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.profile.util.RewardUtil|Decrypted product ID: 66646327670",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.772Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.profile.util.RewardUtil|Decrypted product ID: 66646327670"
+          ]
+        },
+        "sort": [
+          1776840099772
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "hJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.772+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.util.MultiLayerCachedUtil|[L1 Cache HIT] key: ROUTE_FLAG:FIX value: P",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.772Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.util.MultiLayerCachedUtil|[L1 Cache HIT] key: ROUTE_FLAG:FIX value: P"
+          ]
+        },
+        "sort": [
+          1776840099772
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "hZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.772+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|isSLP is true",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.772Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|isSLP is true"
+          ]
+        },
+        "sort": [
+          1776840099772
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "iZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.772+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.profile.util.RewardUtil|Encrypted product ID: nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.772Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.profile.util.RewardUtil|Encrypted product ID: nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc="
+          ]
+        },
+        "sort": [
+          1776840099772
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "ipTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.772+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.profile.util.RewardUtil|End process: ID=nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=, Type=MOBILE",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.772Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.profile.util.RewardUtil|End process: ID=nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=, Type=MOBILE"
+          ]
+        },
+        "sort": [
+          1776840099772
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "hpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.772+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.profile.util.RewardUtil|Start process: getIdAndTypeForSLP",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.772Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.profile.util.RewardUtil|Start process: getIdAndTypeForSLP"
+          ]
+        },
+        "sort": [
+          1776840099772
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "i5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.772+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.r.s.p.RewardCacheRedisService|RewardCacheRedisService_get key RWD-PREPROD:b0c16df4e7b53ea7c67f778b07eeddfe:BALANCE value class th.co.truecorp.commonapi.profile.endpoint.model.pointAndCoin.GetPointAndCoinResponseModel",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.772Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.r.s.p.RewardCacheRedisService|RewardCacheRedisService_get key RWD-PREPROD:b0c16df4e7b53ea7c67f778b07eeddfe:BALANCE value class th.co.truecorp.commonapi.profile.endpoint.model.pointAndCoin.GetPointAndCoinResponseModel"
+          ]
+        },
+        "sort": [
+          1776840099772
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "g5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.772+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.util.MultiLayerCachedUtil|[L1 Cache HIT] key: VERSION_API:FIX value: 1.0.0.0",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.772Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.util.MultiLayerCachedUtil|[L1 Cache HIT] key: VERSION_API:FIX value: 1.0.0.0"
+          ]
+        },
+        "sort": [
+          1776840099772
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "h5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.772+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.profile.util.RewardUtil|Product Brand: TMH, Product ID: l+1UWvFZ7yx8fFDORE+yyw==",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.772Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.profile.util.RewardUtil|Product Brand: TMH, Product ID: l+1UWvFZ7yx8fFDORE+yyw=="
+          ]
+        },
+        "sort": [
+          1776840099772
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "jJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.772+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|locked ok >>MANAGE:PREPROD:66646327670",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.772Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|locked ok >>MANAGE:PREPROD:66646327670"
+          ]
+        },
+        "sort": [
+          1776840099772
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "jZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.773+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.redis.RedisCacheService|RedisCacheService get -> key: AOU:b0c16df4e7b53ea7c67f778b07eeddfe",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.773Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.redis.RedisCacheService|RedisCacheService get -> key: AOU:b0c16df4e7b53ea7c67f778b07eeddfe"
+          ]
+        },
+        "sort": [
+          1776840099773
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "jpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.773+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|No balance in cache",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.773Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|No balance in cache"
+          ]
+        },
+        "sort": [
+          1776840099773
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "j5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.773+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|get catch from redis",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.773Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|get catch from redis"
+          ]
+        },
+        "sort": [
+          1776840099773
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "kJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.774+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.m.s.ChildGroupServiceImpl|AOU info found in cache for digitalId=b0c16df4e7b53ea7c67f778b07eeddfe",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.774Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.m.s.ChildGroupServiceImpl|AOU info found in cache for digitalId=b0c16df4e7b53ea7c67f778b07eeddfe"
+          ]
+        },
+        "sort": [
+          1776840099774
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "kZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.774+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService| found >> DigitalId(id=b0c16df4e7b53ea7c67f778b07eeddfe, digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, product=Product(productId=l+1UWvFZ7yx8fFDORE+yyw==, productBrand=TMH, productStatus=Active, productType=POSTPAID, productSegment=TUC, bcBan=, ban=G3B0mzExBkYOg/1TEp1kKg==, multiSimLevel=, mainConvergenceCode=, assetGroupId=, multiSimIndicator=, companyCode=RF, companyDescription=True Move H Universal Communication Co., Ltd, subscriberId=M8REs53X+K6T3JhhwO76Pg==, subType=RPI), customer=Customer(customerIdentity=bcUlYq0ZWhYsWgO77/yZDQ==, customerIdentityType=I, customerType=INDI, customerNumber=64325250, birthday=2002-11-26), status=A, lastUpdateTime=Wed Apr 22 13:20:11 GMT+07:00 2026, createTime=Thu Feb 19 09:45:54 GMT+07:00 2026)",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.774Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService| found >> DigitalId(id=b0c16df4e7b53ea7c67f778b07eeddfe, digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, product=Product(productId=l+1UWvFZ7yx8fFDORE+yyw==, productBrand=TMH, productStatus=Active, productType=POSTPAID, productSegment=TUC, bcBan=, ban=G3B0mzExBkYOg/1TEp1kKg==, multiSimLevel=, mainConvergenceCode=, assetGroupId=, multiSimIndicator=, companyCode=RF, companyDescription=True Move H Universal Communication Co., Ltd, subscriberId=M8REs53X+K6T3JhhwO76Pg==, subType=RPI), customer=Customer(customerIdentity=bcUlYq0ZWhYsWgO77/yZDQ==, customerIdentityType=I, customerType=INDI, customerNumber=64325250, birthday=2002-11-26), status=A, lastUpdateTime=Wed Apr 22 13:20:11 GMT+07:00 2026, createTime=Thu Feb 19 09:45:54 GMT+07:00 2026)"
+          ]
+        },
+        "sort": [
+          1776840099774
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "kpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.774+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|return digitalId follow response table.",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.774Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|return digitalId follow response table."
+          ]
+        },
+        "sort": [
+          1776840099774
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "k5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.774+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|cacheKey is b0c16df4e7b53ea7c67f778b07eeddfe:loyalty_v1_profiles_customer-infos",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.774Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|cacheKey is b0c16df4e7b53ea7c67f778b07eeddfe:loyalty_v1_profiles_customer-infos"
+          ]
+        },
+        "sort": [
+          1776840099774
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "lJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.775+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.commonlib.service.APIGWService|[APIGWService] checkTokenExpired currentTimeMs=1776840099775, expireTimeMs=1776842714053",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.775Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.commonlib.service.APIGWService|[APIGWService] checkTokenExpired currentTimeMs=1776840099775, expireTimeMs=1776842714053"
+          ]
+        },
+        "sort": [
+          1776840099775
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "l5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.775+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|o.s.web.client.RestTemplate|HTTP POST https://vipgw.truecorp.co.th/usageConsumption/v3/qryBalancePost",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.775Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|o.s.web.client.RestTemplate|HTTP POST https://vipgw.truecorp.co.th/usageConsumption/v3/qryBalancePost"
+          ]
+        },
+        "sort": [
+          1776840099775
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "mpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.775+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.e.GetCustomerInfosFromSLPEndpoint|Starting getCustomerInfoFromSLP process",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.775Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.e.GetCustomerInfosFromSLPEndpoint|Starting getCustomerInfoFromSLP process"
+          ]
+        },
+        "sort": [
+          1776840099775
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "lpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.775+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.commonlib.service.APIGWService|[APIGWService][Request][20260422134139775255][530] POST https://vipgw.truecorp.co.th/usageConsumption/v3/qryBalancePost, epReqTimeout=6000, epConTimeout=6000, epPoolTimeout=6000, epReqheader=[Content-Type:\"application/json\", sourceSystemId:\"trueapp\", sessionId:\"2214718d-916742252f0f-f9-29f4492\", Authorization:\"Bearer HmtG6mCDnYoGmIHd3ls9AeTdxGho\"], epReqbody=BalancePaymentTrueRequest(txid=20260422134139775255, channel=true, relatedParty=null, account=Account(id=307990601, status=OPENORDEBT), searchType=ACCOUNTID, type=MOBILE, pageSize=1, pageNo=1), epMaxTotalCon=80, epMaxPerRouteCon=60, epPoolAvailable=0, epPoolPending=0, epPoolInUsed(Leased)=0",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.775Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.commonlib.service.APIGWService|[APIGWService][Request][20260422134139775255][530] POST https://vipgw.truecorp.co.th/usageConsumption/v3/qryBalancePost, epReqTimeout=6000, epConTimeout=6000, epPoolTimeout=6000, epReqheader=[Content-Type:\"application/json\", sourceSystemId:\"trueapp\", sessionId:\"2214718d-916742252f0f-f9-29f4492\", Authorization:\"Bearer HmtG6mCDnYoGmIHd3ls9AeTdxGho\"], epReqbody=BalancePaymentTrueRequest(txid=20260422134139775255, channel=true, relatedParty=null, account=Account(id=307990601, status=OPENORDEBT), searchType=ACCOUNTID, type=MOBILE, pageSize=1, pageNo=1), epMaxTotalCon=80, epMaxPerRouteCon=60, epPoolAvailable=0, epPoolPending=0, epPoolInUsed(Leased)=0"
+          ]
+        },
+        "sort": [
+          1776840099775
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "mJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.775+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|o.s.web.client.RestTemplate|Accept=[application/json, application/yaml, application/*+json]",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.775Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|o.s.web.client.RestTemplate|Accept=[application/json, application/yaml, application/*+json]"
+          ]
+        },
+        "sort": [
+          1776840099775
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "lZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.775+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.commonlib.service.APIGWService|[APIGWService] token=HmtG6mC..., isExpire=false",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.775Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.commonlib.service.APIGWService|[APIGWService] token=HmtG6mC..., isExpire=false"
+          ]
+        },
+        "sort": [
+          1776840099775
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "mZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.775+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|o.s.web.client.RestTemplate|Writing [BalancePaymentTrueRequest(txid=20260422134139775255, channel=true, relatedParty=null, account=Account(id=307990601, status=OPENORDEBT), searchType=ACCOUNTID, type=MOBILE, pageSize=1, pageNo=1)] as \"application/json\"",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.775Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|o.s.web.client.RestTemplate|Writing [BalancePaymentTrueRequest(txid=20260422134139775255, channel=true, relatedParty=null, account=Account(id=307990601, status=OPENORDEBT), searchType=ACCOUNTID, type=MOBILE, pageSize=1, pageNo=1)] as \"application/json\""
+          ]
+        },
+        "sort": [
+          1776840099775
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "m5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.776+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ExternalService|[ExternalService][Request][trueapp20260422134139757873][803] GET https://partner-api.truecorp.co.th/loyalty/v1/profiles/customer-infos?identifier_no=nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=&extensions=true_card,account_grade,additional_data,address,point_expire_forecast&identifier_type=MOBILE&fields=cust_title;cust_firstname;cust_lastname;redemption_enabled;is_employee;has_product;has_true_id;citizen;birthdate;main_points_balance;account_uuid;is_verify_customer;mobile_operator;multiplier;point_expire_forecast;firstname;lastname;has_card;true_card;account_grade;additional_data;address, epReqTimeout=8000, epConTimeout=8000, epPoolTimeout=5000, epReqheader=[Content-Type:\"application/json\", channel:\"TRUEAPP\", X-Correlation-ID:\"trueapp20260422134139757873\", Authorization:\"6QG8WN3KkEJOzEh1Gc6eZrlJkksm9aHAUyaHibGidOpZwkqQ\", X-User-ID:\"60001\"], epReqbody=null, epMaxTotalCon=50, epMaxPerRouteCon=20, epPoolAvailable=0, epPoolPending=0, epPoolInUsed(Leased)=0",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.776Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ExternalService|[ExternalService][Request][trueapp20260422134139757873][803] GET https://partner-api.truecorp.co.th/loyalty/v1/profiles/customer-infos?identifier_no=nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=&extensions=true_card,account_grade,additional_data,address,point_expire_forecast&identifier_type=MOBILE&fields=cust_title;cust_firstname;cust_lastname;redemption_enabled;is_employee;has_product;has_true_id;citizen;birthdate;main_points_balance;account_uuid;is_verify_customer;mobile_operator;multiplier;point_expire_forecast;firstname;lastname;has_card;true_card;account_grade;additional_data;address, epReqTimeout=8000, epConTimeout=8000, epPoolTimeout=5000, epReqheader=[Content-Type:\"application/json\", channel:\"TRUEAPP\", X-Correlation-ID:\"trueapp20260422134139757873\", Authorization:\"6QG8WN3KkEJOzEh1Gc6eZrlJkksm9aHAUyaHibGidOpZwkqQ\", X-User-ID:\"60001\"], epReqbody=null, epMaxTotalCon=50, epMaxPerRouteCon=20, epPoolAvailable=0, epPoolPending=0, epPoolInUsed(Leased)=0"
+          ]
+        },
+        "sort": [
+          1776840099776
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "nJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.776+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|HTTP GET https://partner-api.truecorp.co.th/loyalty/v1/profiles/customer-infos?identifier_no=nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=&extensions=true_card,account_grade,additional_data,address,point_expire_forecast&identifier_type=MOBILE&fields=cust_title;cust_firstname;cust_lastname;redemption_enabled;is_employee;has_product;has_true_id;citizen;birthdate;main_points_balance;account_uuid;is_verify_customer;mobile_operator;multiplier;point_expire_forecast;firstname;lastname;has_card;true_card;account_grade;additional_data;address",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.776Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|HTTP GET https://partner-api.truecorp.co.th/loyalty/v1/profiles/customer-infos?identifier_no=nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=&extensions=true_card,account_grade,additional_data,address,point_expire_forecast&identifier_type=MOBILE&fields=cust_title;cust_firstname;cust_lastname;redemption_enabled;is_employee;has_product;has_true_id;citizen;birthdate;main_points_balance;account_uuid;is_verify_customer;mobile_operator;multiplier;point_expire_forecast;firstname;lastname;has_card;true_card;account_grade;additional_data;address"
+          ]
+        },
+        "sort": [
+          1776840099776
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "n5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.776+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.redis.RedisCacheService|RedisCacheService get -> key: AOU:b0c16df4e7b53ea7c67f778b07eeddfe",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.776Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.redis.RedisCacheService|RedisCacheService get -> key: AOU:b0c16df4e7b53ea7c67f778b07eeddfe"
+          ]
+        },
+        "sort": [
+          1776840099776
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "nZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.776+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Accept=[application/json, application/yaml, application/*+json]",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.776Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Accept=[application/json, application/yaml, application/*+json]"
+          ]
+        },
+        "sort": [
+          1776840099776
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "npTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.776+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|locked ok >>MANAGE:PREPROD:66646327670",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.776Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|locked ok >>MANAGE:PREPROD:66646327670"
+          ]
+        },
+        "sort": [
+          1776840099776
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "opTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.777+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|return digitalId follow response table.",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.777Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService|return digitalId follow response table."
+          ]
+        },
+        "sort": [
+          1776840099777
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "oJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.777+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.m.s.ChildGroupServiceImpl|AOU info found in cache for digitalId=b0c16df4e7b53ea7c67f778b07eeddfe",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.777Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.m.s.ChildGroupServiceImpl|AOU info found in cache for digitalId=b0c16df4e7b53ea7c67f778b07eeddfe"
+          ]
+        },
+        "sort": [
+          1776840099777
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "oZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.777+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService| found >> DigitalId(id=b0c16df4e7b53ea7c67f778b07eeddfe, digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, product=Product(productId=l+1UWvFZ7yx8fFDORE+yyw==, productBrand=TMH, productStatus=Active, productType=POSTPAID, productSegment=TUC, bcBan=, ban=G3B0mzExBkYOg/1TEp1kKg==, multiSimLevel=, mainConvergenceCode=, assetGroupId=, multiSimIndicator=, companyCode=RF, companyDescription=True Move H Universal Communication Co., Ltd, subscriberId=M8REs53X+K6T3JhhwO76Pg==, subType=RPI), customer=Customer(customerIdentity=bcUlYq0ZWhYsWgO77/yZDQ==, customerIdentityType=I, customerType=INDI, customerNumber=64325250, birthday=2002-11-26), status=A, lastUpdateTime=Wed Apr 22 13:20:11 GMT+07:00 2026, createTime=Thu Feb 19 09:45:54 GMT+07:00 2026)",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.777Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-1|Async|t.c.t.c.p.f.ManageProfileFromDigitalIdService| found >> DigitalId(id=b0c16df4e7b53ea7c67f778b07eeddfe, digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, product=Product(productId=l+1UWvFZ7yx8fFDORE+yyw==, productBrand=TMH, productStatus=Active, productType=POSTPAID, productSegment=TUC, bcBan=, ban=G3B0mzExBkYOg/1TEp1kKg==, multiSimLevel=, mainConvergenceCode=, assetGroupId=, multiSimIndicator=, companyCode=RF, companyDescription=True Move H Universal Communication Co., Ltd, subscriberId=M8REs53X+K6T3JhhwO76Pg==, subType=RPI), customer=Customer(customerIdentity=bcUlYq0ZWhYsWgO77/yZDQ==, customerIdentityType=I, customerType=INDI, customerNumber=64325250, birthday=2002-11-26), status=A, lastUpdateTime=Wed Apr 22 13:20:11 GMT+07:00 2026, createTime=Thu Feb 19 09:45:54 GMT+07:00 2026)"
+          ]
+        },
+        "sort": [
+          1776840099777
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "ppTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.976+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.commonlib.service.APIGWService|[APIGWService][Response][20260422134139775255][530] 200 OK, epResheader=[Date:\"Wed, 22 Apr 2026 06:41:39 GMT\", Content-Type:\"application/json;charset=utf-8\", Transfer-Encoding:\"chunked\", Connection:\"keep-alive\", Vary:\"Accept-Encoding\", \"Accept-Encoding\"], epResbody=BalancePaymentTrueResponse(code=0, description=Success, timestamp=2026-04-22T13:41:39.958, balanceInfo=[TrueBalanceInfo(account=TrueAccount(dueDate=2026-04-25T00:00:00.000+07:00, minDueDate=2026-04-25T00:00:00.000+07:00, accountId=307990601, arBalance=266.43, company=TrueComapy(code=RF, description=True Move H Universal Communication Co., Ltd)), invoiceSummary=TrueInvoiceSummary(overdueAmount=0.00))]), epResTime=201",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.976Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.commonlib.service.APIGWService|[APIGWService][Response][20260422134139775255][530] 200 OK, epResheader=[Date:\"Wed, 22 Apr 2026 06:41:39 GMT\", Content-Type:\"application/json;charset=utf-8\", Transfer-Encoding:\"chunked\", Connection:\"keep-alive\", Vary:\"Accept-Encoding\", \"Accept-Encoding\"], epResbody=BalancePaymentTrueResponse(code=0, description=Success, timestamp=2026-04-22T13:41:39.958, balanceInfo=[TrueBalanceInfo(account=TrueAccount(dueDate=2026-04-25T00:00:00.000+07:00, minDueDate=2026-04-25T00:00:00.000+07:00, accountId=307990601, arBalance=266.43, company=TrueComapy(code=RF, description=True Move H Universal Communication Co., Ltd)), invoiceSummary=TrueInvoiceSummary(overdueAmount=0.00))]), epResTime=201"
+          ]
+        },
+        "sort": [
+          1776840099976
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "pZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.976+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|o.s.web.client.RestTemplate|Reading to [th.co.truecorp.commonapi.profile.model.endpoint.payment.balance.payment.response.BalancePaymentTrueResponse]",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.976Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|o.s.web.client.RestTemplate|Reading to [th.co.truecorp.commonapi.profile.model.endpoint.payment.balance.payment.response.BalancePaymentTrueResponse]"
+          ]
+        },
+        "sort": [
+          1776840099976
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "o5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.976+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|o.s.web.client.RestTemplate|Response 200 OK",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.976Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|o.s.web.client.RestTemplate|Response 200 OK"
+          ]
+        },
+        "sort": [
+          1776840099976
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "pJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:39.976+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.service.ConnectionService|http status : 200 OK",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:39.976Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1444-thread-2|Async|t.c.t.c.service.ConnectionService|http status : 200 OK"
+          ]
+        },
+        "sort": [
+          1776840099976
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "qZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.003+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Reading to [th.co.truecorp.commonapi.profile.endpoint.model.customerInfosFromSLP.GetCustomerInfosFromSLPResp]",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.003Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Reading to [th.co.truecorp.commonapi.profile.endpoint.model.customerInfosFromSLP.GetCustomerInfosFromSLPResp]"
+          ]
+        },
+        "sort": [
+          1776840100003
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "qpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.003+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ExternalService|[ExternalService][Response][trueapp20260422134139757873][803] 200 OK, epResheader=[date:\"Wed, 22 Apr 2026 06:41:39 GMT\", content-type:\"application/json; charset=utf-8\", vary:\"Accept-Encoding\", x-frame-options:\"SAMEORIGIN\", x-xss-protection:\"1; mode=block\", content-security-policy:\"default-src 'self'; frame-ancestors 'self'; form-action 'self';\", permissions-policy:\"geolocation=(), camera=(), microphone=()\", x-content-type-options:\"nosniff\", cross-origin-embedder-policy:\"credentialless\", cross-origin-resource-policy:\"credentialless\", cross-origin-opener-policy:\"same-origin\", referrer-policy:\"strict-origin-when-cross-origin\", strict-transport-security:\"max-age=31536000; includeSubDomains\", access-control-allow-origin:\"\", x-request-id:\"dc5a998b-910c-4333-ac8c-c5d50fde7e95\", via:\"1.1 google, 1.1 google\", Alt-Svc:\"h3=\":443\"; ma=2592000\", Transfer-Encoding:\"chunked\"], epResbody=GetCustomerInfosFromSLPResp(code=10001, message=Success, data=DataReq(account_uuid=ccb648c1-c067-46ae-a6af-3c4b006417c2, birthdate=WB-2jZB-cHsK_zaPpEL1rtgts6EfM75VKcu2lMdsOxs=, citizen=2aWM_5g-Pn1jANUZSZfdzrWpx1sFLaenKqh2YtDjLTs=, cust_firstname=USZXOs9eDQGrYkXxZReFDvY26hHtaXgcoYkbCHXmE9U=, cust_lastname=qhopNm0LDY4QHjO7xgws_x7njC9_-ene8hDUl-W9eC51h4YsNlNQyEUI2V2IfAI_Txfabco4ctb1Qk_57Wav2A==, cust_title=คุณ, firstname=EMojipYwtNEb7IO1RszI4rjWhjO1WMSXlcRs_37y3IA=, has_card=true, has_product=false, has_true_id=true, is_employee=false, is_verify_customer=true, lastname=WaKX63utKEwRmkLb983IKcGmmLYJ3Gmxw88fZ0LcQ6Vp3ohLVfiSfMURhTHvJnPxmvdbp6-ySBUOocpLFuyiQQ==, main_points_balance=1115, mobile_operator=true, multiplier=1, point_expire_forecast=[PointExpireForecast(expiration_date=2026-12-31, points=85), PointExpireForecast(expiration_date=2027-12-31, points=30), PointExpireForecast(expiration_date=2028-12-31, points=1000)], redemption_enabled=true, true_card=TrueCard(status=A, type=Blue, no=mD0I7JB7LfraHFdnUMlYnn8nXn9XIyCNBcFSuix2Z-Kb5nb3JtlRhW_PG7Q1-K0G, mastercard_no=, expiration_date=2026-11-30, grading_date=2026-04-20), account_grade=AccountGrade(level=Blue, reason_code=7000039, customer_type=NOR, card_type=OXXZ, counter=0), additional_data=AdditionalData(arpa=266, aging=78, card_delivery_status=, card_request_count=0), address=Address(house_no=116/16, moo=-, address_line1=116/16 - 116/16, address_line2=- ซอยอนามัยงามเจริญ 31, address_line3=แขวงท่าข้าม เขตบางขุนเทียน, address_line4=กรุงเทพมหานคร -, district=เขตบางขุนเทียน, sub_district=แขวงท่าข้าม, city=กรุงเทพมหานคร, zip_code=-)), description=null, timestamp=null, StatusCode=null, error=null), epResTime=227",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.003Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ExternalService|[ExternalService][Response][trueapp20260422134139757873][803] 200 OK, epResheader=[date:\"Wed, 22 Apr 2026 06:41:39 GMT\", content-type:\"application/json; charset=utf-8\", vary:\"Accept-Encoding\", x-frame-options:\"SAMEORIGIN\", x-xss-protection:\"1; mode=block\", content-security-policy:\"default-src 'self'; frame-ancestors 'self'; form-action 'self';\", permissions-policy:\"geolocation=(), camera=(), microphone=()\", x-content-type-options:\"nosniff\", cross-origin-embedder-policy:\"credentialless\", cross-origin-resource-policy:\"credentialless\", cross-origin-opener-policy:\"same-origin\", referrer-policy:\"strict-origin-when-cross-origin\", strict-transport-security:\"max-age=31536000; includeSubDomains\", access-control-allow-origin:\"\", x-request-id:\"dc5a998b-910c-4333-ac8c-c5d50fde7e95\", via:\"1.1 google, 1.1 google\", Alt-Svc:\"h3=\":443\"; ma=2592000\", Transfer-Encoding:\"chunked\"], epResbody=GetCustomerInfosFromSLPResp(code=10001, message=Success, data=DataReq(account_uuid=ccb648c1-c067-46ae-a6af-3c4b006417c2, birthdate=WB-2jZB-cHsK_zaPpEL1rtgts6EfM75VKcu2lMdsOxs=, citizen=2aWM_5g-Pn1jANUZSZfdzrWpx1sFLaenKqh2YtDjLTs=, cust_firstname=USZXOs9eDQGrYkXxZReFDvY26hHtaXgcoYkbCHXmE9U=, cust_lastname=qhopNm0LDY4QHjO7xgws_x7njC9_-ene8hDUl-W9eC51h4YsNlNQyEUI2V2IfAI_Txfabco4ctb1Qk_57Wav2A==, cust_title=คุณ, firstname=EMojipYwtNEb7IO1RszI4rjWhjO1WMSXlcRs_37y3IA=, has_card=true, has_product=false, has_true_id=true, is_employee=false, is_verify_customer=true, lastname=WaKX63utKEwRmkLb983IKcGmmLYJ3Gmxw88fZ0LcQ6Vp3ohLVfiSfMURhTHvJnPxmvdbp6-ySBUOocpLFuyiQQ==, main_points_balance=1115, mobile_operator=true, multiplier=1, point_expire_forecast=[PointExpireForecast(expiration_date=2026-12-31, points=85), PointExpireForecast(expiration_date=2027-12-31, points=30), PointExpireForecast(expiration_date=2028-12-31, points=1000)], redemption_enabled=true, true_card=TrueCard(status=A, type=Blue, no=mD0I7JB7LfraHFdnUMlYnn8nXn9XIyCNBcFSuix2Z-Kb5nb3JtlRhW_PG7Q1-K0G, mastercard_no=, expiration_date=2026-11-30, grading_date=2026-04-20), account_grade=AccountGrade(level=Blue, reason_code=7000039, customer_type=NOR, card_type=OXXZ, counter=0), additional_data=AdditionalData(arpa=266, aging=78, card_delivery_status=, card_request_count=0), address=Address(house_no=116/16, moo=-, address_line1=116/16 - 116/16, address_line2=- ซอยอนามัยงามเจริญ 31, address_line3=แขวงท่าข้าม เขตบางขุนเทียน, address_line4=กรุงเทพมหานคร -, district=เขตบางขุนเทียน, sub_district=แขวงท่าข้าม, city=กรุงเทพมหานคร, zip_code=-)), description=null, timestamp=null, StatusCode=null, error=null), epResTime=227"
+          ]
+        },
+        "sort": [
+          1776840100003
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "q5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.003+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.e.GetCustomerInfosFromSLPEndpoint|Response from SLP Customer Infos: GetCustomerInfosFromSLPResp(code=10001, message=Success, data=DataReq(account_uuid=ccb648c1-c067-46ae-a6af-3c4b006417c2, birthdate=WB-2jZB-cHsK_zaPpEL1rtgts6EfM75VKcu2lMdsOxs=, citizen=2aWM_5g-Pn1jANUZSZfdzrWpx1sFLaenKqh2YtDjLTs=, cust_firstname=USZXOs9eDQGrYkXxZReFDvY26hHtaXgcoYkbCHXmE9U=, cust_lastname=qhopNm0LDY4QHjO7xgws_x7njC9_-ene8hDUl-W9eC51h4YsNlNQyEUI2V2IfAI_Txfabco4ctb1Qk_57Wav2A==, cust_title=คุณ, firstname=EMojipYwtNEb7IO1RszI4rjWhjO1WMSXlcRs_37y3IA=, has_card=true, has_product=false, has_true_id=true, is_employee=false, is_verify_customer=true, lastname=WaKX63utKEwRmkLb983IKcGmmLYJ3Gmxw88fZ0LcQ6Vp3ohLVfiSfMURhTHvJnPxmvdbp6-ySBUOocpLFuyiQQ==, main_points_balance=1115, mobile_operator=true, multiplier=1, point_expire_forecast=[PointExpireForecast(expiration_date=2026-12-31, points=85), PointExpireForecast(expiration_date=2027-12-31, points=30), PointExpireForecast(expiration_date=2028-12-31, points=1000)], redemption_enabled=true, true_card=TrueCard(status=A, type=Blue, no=mD0I7JB7LfraHFdnUMlYnn8nXn9XIyCNBcFSuix2Z-Kb5nb3JtlRhW_PG7Q1-K0G, mastercard_no=, expiration_date=2026-11-30, grading_date=2026-04-20), account_grade=AccountGrade(level=Blue, reason_code=7000039, customer_type=NOR, card_type=OXXZ, counter=0), additional_data=AdditionalData(arpa=266, aging=78, card_delivery_status=, card_request_count=0), address=Address(house_no=116/16, moo=-, address_line1=116/16 - 116/16, address_line2=- ซอยอนามัยงามเจริญ 31, address_line3=แขวงท่าข้าม เขตบางขุนเทียน, address_line4=กรุงเทพมหานคร -, district=เขตบางขุนเทียน, sub_district=แขวงท่าข้าม, city=กรุงเทพมหานคร, zip_code=-)), description=null, timestamp=null, StatusCode=null, error=null)",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.003Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.e.GetCustomerInfosFromSLPEndpoint|Response from SLP Customer Infos: GetCustomerInfosFromSLPResp(code=10001, message=Success, data=DataReq(account_uuid=ccb648c1-c067-46ae-a6af-3c4b006417c2, birthdate=WB-2jZB-cHsK_zaPpEL1rtgts6EfM75VKcu2lMdsOxs=, citizen=2aWM_5g-Pn1jANUZSZfdzrWpx1sFLaenKqh2YtDjLTs=, cust_firstname=USZXOs9eDQGrYkXxZReFDvY26hHtaXgcoYkbCHXmE9U=, cust_lastname=qhopNm0LDY4QHjO7xgws_x7njC9_-ene8hDUl-W9eC51h4YsNlNQyEUI2V2IfAI_Txfabco4ctb1Qk_57Wav2A==, cust_title=คุณ, firstname=EMojipYwtNEb7IO1RszI4rjWhjO1WMSXlcRs_37y3IA=, has_card=true, has_product=false, has_true_id=true, is_employee=false, is_verify_customer=true, lastname=WaKX63utKEwRmkLb983IKcGmmLYJ3Gmxw88fZ0LcQ6Vp3ohLVfiSfMURhTHvJnPxmvdbp6-ySBUOocpLFuyiQQ==, main_points_balance=1115, mobile_operator=true, multiplier=1, point_expire_forecast=[PointExpireForecast(expiration_date=2026-12-31, points=85), PointExpireForecast(expiration_date=2027-12-31, points=30), PointExpireForecast(expiration_date=2028-12-31, points=1000)], redemption_enabled=true, true_card=TrueCard(status=A, type=Blue, no=mD0I7JB7LfraHFdnUMlYnn8nXn9XIyCNBcFSuix2Z-Kb5nb3JtlRhW_PG7Q1-K0G, mastercard_no=, expiration_date=2026-11-30, grading_date=2026-04-20), account_grade=AccountGrade(level=Blue, reason_code=7000039, customer_type=NOR, card_type=OXXZ, counter=0), additional_data=AdditionalData(arpa=266, aging=78, card_delivery_status=, card_request_count=0), address=Address(house_no=116/16, moo=-, address_line1=116/16 - 116/16, address_line2=- ซอยอนามัยงามเจริญ 31, address_line3=แขวงท่าข้าม เขตบางขุนเทียน, address_line4=กรุงเทพมหานคร -, district=เขตบางขุนเทียน, sub_district=แขวงท่าข้าม, city=กรุงเทพมหานคร, zip_code=-)), description=null, timestamp=null, StatusCode=null, error=null)"
+          ]
+        },
+        "sort": [
+          1776840100003
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "rJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.003+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|put cacheKey b0c16df4e7b53ea7c67f778b07eeddfe:loyalty_v1_profiles_customer-infos",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.003Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|put cacheKey b0c16df4e7b53ea7c67f778b07eeddfe:loyalty_v1_profiles_customer-infos"
+          ]
+        },
+        "sort": [
+          1776840100003
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "p5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.003+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Response 200 OK",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.003Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Response 200 OK"
+          ]
+        },
+        "sort": [
+          1776840100003
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "qJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.003+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ConnectionService|http status : 200 OK",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.003Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ConnectionService|http status : 200 OK"
+          ]
+        },
+        "sort": [
+          1776840100003
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "spTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.005+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|cacheKey is b0c16df4e7b53ea7c67f778b07eeddfe:loyalty_v1_profiles_point-expire-forecasts",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.005Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|cacheKey is b0c16df4e7b53ea7c67f778b07eeddfe:loyalty_v1_profiles_point-expire-forecasts"
+          ]
+        },
+        "sort": [
+          1776840100005
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "sJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.005+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|New balance is null and call expiration from SLP service",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.005Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|New balance is null and call expiration from SLP service"
+          ]
+        },
+        "sort": [
+          1776840100005
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "sZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.005+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|get catch from redis",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.005Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|get catch from redis"
+          ]
+        },
+        "sort": [
+          1776840100005
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "r5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.005+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|Skip update profile cache due to null data",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.005Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|Skip update profile cache due to null data"
+          ]
+        },
+        "sort": [
+          1776840100005
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "rZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.005+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|SLP response : {\"status\":\"OK\",\"headers\":{\"date\":[\"Wed, 22 Apr 2026 06:41:39 GMT\"],\"content-type\":[\"application/json; charset\\u003dutf-8\"],\"vary\":[\"Accept-Encoding\"],\"x-frame-options\":[\"SAMEORIGIN\"],\"x-xss-protection\":[\"1; mode\\u003dblock\"],\"content-security-policy\":[\"default-src \\u0027self\\u0027; frame-ancestors \\u0027self\\u0027; form-action \\u0027self\\u0027;\"],\"permissions-policy\":[\"geolocation\\u003d(), camera\\u003d(), microphone\\u003d()\"],\"x-content-type-options\":[\"nosniff\"],\"cross-origin-embedder-policy\":[\"credentialless\"],\"cross-origin-resource-policy\":[\"credentialless\"],\"cross-origin-opener-policy\":[\"same-origin\"],\"referrer-policy\":[\"strict-origin-when-cross-origin\"],\"strict-transport-security\":[\"max-age\\u003d31536000; includeSubDomains\"],\"access-control-allow-origin\":[\"\"],\"x-request-id\":[\"dc5a998b-910c-4333-ac8c-c5d50fde7e95\"],\"via\":[\"1.1 google, 1.1 google\"],\"Alt-Svc\":[\"h3\\u003d\\\":443\\\"; ma\\u003d2592000\"],\"Transfer-Encoding\":[\"chunked\"]},\"body\":{\"code\":10001,\"message\":\"Success\",\"data\":{\"account_uuid\":\"ccb648c1-c067-46ae-a6af-3c4b006417c2\",\"birthdate\":\"WB-2jZB-cHsK_zaPpEL1rtgts6EfM75VKcu2lMdsOxs\\u003d\",\"citizen\":\"2aWM_5g-Pn1jANUZSZfdzrWpx1sFLaenKqh2YtDjLTs\\u003d\",\"cust_firstname\":\"USZXOs9eDQGrYkXxZReFDvY26hHtaXgcoYkbCHXmE9U\\u003d\",\"cust_lastname\":\"qhopNm0LDY4QHjO7xgws_x7njC9_-ene8hDUl-W9eC51h4YsNlNQyEUI2V2IfAI_Txfabco4ctb1Qk_57Wav2A\\u003d\\u003d\",\"cust_title\":\"คุณ\",\"firstname\":\"EMojipYwtNEb7IO1RszI4rjWhjO1WMSXlcRs_37y3IA\\u003d\",\"has_card\":true,\"has_product\":false,\"has_true_id\":true,\"is_employee\":false,\"is_verify_customer\":true,\"lastname\":\"WaKX63utKEwRmkLb983IKcGmmLYJ3Gmxw88fZ0LcQ6Vp3ohLVfiSfMURhTHvJnPxmvdbp6-ySBUOocpLFuyiQQ\\u003d\\u003d\",\"main_points_balance\":1115,\"mobile_operator\":\"true\",\"multiplier\":1,\"point_expire_forecast\":[{\"expiration_date\":\"2026-12-31\",\"points\":85},{\"expiration_date\":\"2027-12-31\",\"points\":30},{\"expiration_date\":\"2028-12-31\",\"points\":1000}],\"redemption_enabled\":true,\"true_card\":{\"status\":\"A\",\"type\":\"Blue\",\"no\":\"mD0I7JB7LfraHFdnUMlYnn8nXn9XIyCNBcFSuix2Z-Kb5nb3JtlRhW_PG7Q1-K0G\",\"mastercard_no\":\"\",\"expiration_date\":\"2026-11-30\",\"grading_date\":\"2026-04-20\"},\"account_grade\":{\"level\":\"Blue\",\"reason_code\":\"7000039\",\"customer_type\":\"NOR\",\"card_type\":\"OXXZ\",\"counter\":\"0\"},\"additional_data\":{\"arpa\":266,\"aging\":\"78\",\"card_delivery_status\":\"\",\"card_request_count\":0},\"address\":{\"house_no\":\"116/16\",\"moo\":\"-\",\"address_line1\":\"116/16 - 116/16\",\"address_line2\":\"- ซอยอนามัยงามเจริญ 31\",\"address_line3\":\"แขวงท่าข้าม เขตบางขุนเทียน\",\"address_line4\":\"กรุงเทพมหานคร -\",\"district\":\"เขตบางขุนเทียน\",\"sub_district\":\"แขวงท่าข้าม\",\"city\":\"กรุงเทพมหานคร\",\"zip_code\":\"-\"}}}}",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.005Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|SLP response : {\"status\":\"OK\",\"headers\":{\"date\":[\"Wed, 22 Apr 2026 06:41:39 GMT\"],\"content-type\":[\"application/json; charset\\u003dutf-8\"],\"vary\":[\"Accept-Encoding\"],\"x-frame-options\":[\"SAMEORIGIN\"],\"x-xss-protection\":[\"1; mode\\u003dblock\"],\"content-security-policy\":[\"default-src \\u0027self\\u0027; frame-ancestors \\u0027self\\u0027; form-action \\u0027self\\u0027;\"],\"permissions-policy\":[\"geolocation\\u003d(), camera\\u003d(), microphone\\u003d()\"],\"x-content-type-options\":[\"nosniff\"],\"cross-origin-embedder-policy\":[\"credentialless\"],\"cross-origin-resource-policy\":[\"credentialless\"],\"cross-origin-opener-policy\":[\"same-origin\"],\"referrer-policy\":[\"strict-origin-when-cross-origin\"],\"strict-transport-security\":[\"max-age\\u003d31536000; includeSubDomains\"],\"access-control-allow-origin\":[\"\"],\"x-request-id\":[\"dc5a998b-910c-4333-ac8c-c5d50fde7e95\"],\"via\":[\"1.1 google, 1.1 google\"],\"Alt-Svc\":[\"h3\\u003d\\\":443\\\"; ma\\u003d2592000\"],\"Transfer-Encoding\":[\"chunked\"]},\"body\":{\"code\":10001,\"message\":\"Success\",\"data\":{\"account_uuid\":\"ccb648c1-c067-46ae-a6af-3c4b006417c2\",\"birthdate\":\"WB-2jZB-cHsK_zaPpEL1rtgts6EfM75VKcu2lMdsOxs\\u003d\",\"citizen\":\"2aWM_5g-Pn1jANUZSZfdzrWpx1sFLaenKqh2YtDjLTs\\u003d\",\"cust_firstname\":\"USZXOs9eDQGrYkXxZReFDvY26hHtaXgcoYkbCHXmE9U\\u003d\",\"cust_lastname\":\"qhopNm0LDY4QHjO7xgws_x7njC9_-ene8hDUl-W9eC51h4YsNlNQyEUI2V2IfAI_Txfabco4ctb1Qk_57Wav2A\\u003d\\u003d\",\"cust_title\":\"คุณ\",\"firstname\":\"EMojipYwtNEb7IO1RszI4rjWhjO1WMSXlcRs_37y3IA\\u003d\",\"has_card\":true,\"has_product\":false,\"has_true_id\":true,\"is_employee\":false,\"is_verify_customer\":true,\"lastname\":\"WaKX63utKEwRmkLb983IKcGmmLYJ3Gmxw88fZ0LcQ6Vp3ohLVfiSfMURhTHvJnPxmvdbp6-ySBUOocpLFuyiQQ\\u003d\\u003d\",\"main_points_balance\":1115,\"mobile_operator\":\"true\",\"multiplier\":1,\"point_expire_forecast\":[{\"expiration_date\":\"2026-12-31\",\"points\":85},{\"expiration_date\":\"2027-12-31\",\"points\":30},{\"expiration_date\":\"2028-12-31\",\"points\":1000}],\"redemption_enabled\":true,\"true_card\":{\"status\":\"A\",\"type\":\"Blue\",\"no\":\"mD0I7JB7LfraHFdnUMlYnn8nXn9XIyCNBcFSuix2Z-Kb5nb3JtlRhW_PG7Q1-K0G\",\"mastercard_no\":\"\",\"expiration_date\":\"2026-11-30\",\"grading_date\":\"2026-04-20\"},\"account_grade\":{\"level\":\"Blue\",\"reason_code\":\"7000039\",\"customer_type\":\"NOR\",\"card_type\":\"OXXZ\",\"counter\":\"0\"},\"additional_data\":{\"arpa\":266,\"aging\":\"78\",\"card_delivery_status\":\"\",\"card_request_count\":0},\"address\":{\"house_no\":\"116/16\",\"moo\":\"-\",\"address_line1\":\"116/16 - 116/16\",\"address_line2\":\"- ซอยอนามัยงามเจริญ 31\",\"address_line3\":\"แขวงท่าข้าม เขตบางขุนเทียน\",\"address_line4\":\"กรุงเทพมหานคร -\",\"district\":\"เขตบางขุนเทียน\",\"sub_district\":\"แขวงท่าข้าม\",\"city\":\"กรุงเทพมหานคร\",\"zip_code\":\"-\"}}}}"
+          ]
+        },
+        "sort": [
+          1776840100005
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "rpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.005+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|Compare balance old=1115 new=null",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.005Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|Compare balance old=1115 new=null"
+          ]
+        },
+        "sort": [
+          1776840100005
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "tpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.006+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|HTTP GET https://partner-api.truecorp.co.th/loyalty/v1/profiles/point-expire-forecasts?identifier_no=nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=&identifier_type=MOBILE",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.006Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|HTTP GET https://partner-api.truecorp.co.th/loyalty/v1/profiles/point-expire-forecasts?identifier_no=nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=&identifier_type=MOBILE"
+          ]
+        },
+        "sort": [
+          1776840100006
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "tZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.006+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ExternalService|[ExternalService][Request][trueapp20260422134139757873][977] GET https://partner-api.truecorp.co.th/loyalty/v1/profiles/point-expire-forecasts?identifier_no=nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=&identifier_type=MOBILE, epReqTimeout=8000, epConTimeout=8000, epPoolTimeout=5000, epReqheader=[Content-Type:\"application/json\", channel:\"TRUEAPP\", X-Correlation-ID:\"trueapp20260422134139757873\", Authorization:\"6QG8WN3KkEJOzEh1Gc6eZrlJkksm9aHAUyaHibGidOpZwkqQ\", X-User-ID:\"60001\"], epReqbody=null, epMaxTotalCon=50, epMaxPerRouteCon=20, epPoolAvailable=0, epPoolPending=0, epPoolInUsed(Leased)=0",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.006Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ExternalService|[ExternalService][Request][trueapp20260422134139757873][977] GET https://partner-api.truecorp.co.th/loyalty/v1/profiles/point-expire-forecasts?identifier_no=nfn6BTyzdlSGFBmQOXqypPgYP6LDdV0ozfdUjB6Ipcc=&identifier_type=MOBILE, epReqTimeout=8000, epConTimeout=8000, epPoolTimeout=5000, epReqheader=[Content-Type:\"application/json\", channel:\"TRUEAPP\", X-Correlation-ID:\"trueapp20260422134139757873\", Authorization:\"6QG8WN3KkEJOzEh1Gc6eZrlJkksm9aHAUyaHibGidOpZwkqQ\", X-User-ID:\"60001\"], epReqbody=null, epMaxTotalCon=50, epMaxPerRouteCon=20, epPoolAvailable=0, epPoolPending=0, epPoolInUsed(Leased)=0"
+          ]
+        },
+        "sort": [
+          1776840100006
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "s5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.006+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.s.p.PointExpireForecastsExpirationService|Starting GetPointExpireForecastsSLP process",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.006Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.s.p.PointExpireForecastsExpirationService|Starting GetPointExpireForecastsSLP process"
+          ]
+        },
+        "sort": [
+          1776840100006
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "tJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.006+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.e.GetPointExpireForecastsEndpoint|Calling API for point expire forecasts endpoint: GetPointExpireForecastsSLP",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.006Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.e.GetPointExpireForecastsEndpoint|Calling API for point expire forecasts endpoint: GetPointExpireForecastsSLP"
+          ]
+        },
+        "sort": [
+          1776840100006
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "t5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.006+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Accept=[application/json, application/yaml, application/*+json]",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.006Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Accept=[application/json, application/yaml, application/*+json]"
+          ]
+        },
+        "sort": [
+          1776840100006
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "uJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.134+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Response 200 OK",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.134Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Response 200 OK"
+          ]
+        },
+        "sort": [
+          1776840100134
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "uZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.134+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ConnectionService|http status : 200 OK",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.134Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ConnectionService|http status : 200 OK"
+          ]
+        },
+        "sort": [
+          1776840100134
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "vZTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.135+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|put cacheKey b0c16df4e7b53ea7c67f778b07eeddfe:loyalty_v1_profiles_point-expire-forecasts",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.135Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.c.p.s.ProfileCacheAspect|put cacheKey b0c16df4e7b53ea7c67f778b07eeddfe:loyalty_v1_profiles_point-expire-forecasts"
+          ]
+        },
+        "sort": [
+          1776840100135
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "u5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.135+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ExternalService|[ExternalService][Response][trueapp20260422134139757873][977] 200 OK, epResheader=[date:\"Wed, 22 Apr 2026 06:41:40 GMT\", content-type:\"application/json; charset=utf-8\", vary:\"Accept-Encoding\", x-frame-options:\"SAMEORIGIN\", x-xss-protection:\"1; mode=block\", content-security-policy:\"default-src 'self'; frame-ancestors 'self'; form-action 'self';\", permissions-policy:\"geolocation=(), camera=(), microphone=()\", x-content-type-options:\"nosniff\", cross-origin-embedder-policy:\"credentialless\", cross-origin-resource-policy:\"credentialless\", cross-origin-opener-policy:\"same-origin\", referrer-policy:\"strict-origin-when-cross-origin\", strict-transport-security:\"max-age=31536000; includeSubDomains\", access-control-allow-origin:\"\", x-request-id:\"f8ecef11-9abc-460d-b4be-303f63f5376b\", via:\"1.1 google, 1.1 google\", Alt-Svc:\"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000\", Transfer-Encoding:\"chunked\"], epResbody=GetPointExpireForecastsFromSLPResp(code=10001, message=Success, data=DataReq(point_expire_forecast=[PointExpireForecast(expiration_date=2026-12-31, points=85), PointExpireForecast(expiration_date=2027-12-31, points=30), PointExpireForecast(expiration_date=2028-12-31, points=1000)]), description=null, timestamp=null, StatusCode=null, error=null), epResTime=129",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.135Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.service.ExternalService|[ExternalService][Response][trueapp20260422134139757873][977] 200 OK, epResheader=[date:\"Wed, 22 Apr 2026 06:41:40 GMT\", content-type:\"application/json; charset=utf-8\", vary:\"Accept-Encoding\", x-frame-options:\"SAMEORIGIN\", x-xss-protection:\"1; mode=block\", content-security-policy:\"default-src 'self'; frame-ancestors 'self'; form-action 'self';\", permissions-policy:\"geolocation=(), camera=(), microphone=()\", x-content-type-options:\"nosniff\", cross-origin-embedder-policy:\"credentialless\", cross-origin-resource-policy:\"credentialless\", cross-origin-opener-policy:\"same-origin\", referrer-policy:\"strict-origin-when-cross-origin\", strict-transport-security:\"max-age=31536000; includeSubDomains\", access-control-allow-origin:\"\", x-request-id:\"f8ecef11-9abc-460d-b4be-303f63f5376b\", via:\"1.1 google, 1.1 google\", Alt-Svc:\"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000\", Transfer-Encoding:\"chunked\"], epResbody=GetPointExpireForecastsFromSLPResp(code=10001, message=Success, data=DataReq(point_expire_forecast=[PointExpireForecast(expiration_date=2026-12-31, points=85), PointExpireForecast(expiration_date=2027-12-31, points=30), PointExpireForecast(expiration_date=2028-12-31, points=1000)]), description=null, timestamp=null, StatusCode=null, error=null), epResTime=129"
+          ]
+        },
+        "sort": [
+          1776840100135
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "vJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.135+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.e.GetPointExpireForecastsEndpoint|Response from SLP Point Expire Forecasts: GetPointExpireForecastsFromSLPResp(code=10001, message=Success, data=DataReq(point_expire_forecast=[PointExpireForecast(expiration_date=2026-12-31, points=85), PointExpireForecast(expiration_date=2027-12-31, points=30), PointExpireForecast(expiration_date=2028-12-31, points=1000)]), description=null, timestamp=null, StatusCode=null, error=null)",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.135Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.e.GetPointExpireForecastsEndpoint|Response from SLP Point Expire Forecasts: GetPointExpireForecastsFromSLPResp(code=10001, message=Success, data=DataReq(point_expire_forecast=[PointExpireForecast(expiration_date=2026-12-31, points=85), PointExpireForecast(expiration_date=2027-12-31, points=30), PointExpireForecast(expiration_date=2028-12-31, points=1000)]), description=null, timestamp=null, StatusCode=null, error=null)"
+          ]
+        },
+        "sort": [
+          1776840100135
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "upTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.135+07:00",
+          "message": "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Reading to [th.co.truecorp.commonapi.profile.endpoint.model.pointExpireForecastsFromSLP.GetPointExpireForecastsFromSLPResp]",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.135Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "DEBUG|2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|o.s.web.client.RestTemplate|Reading to [th.co.truecorp.commonapi.profile.endpoint.model.pointExpireForecastsFromSLP.GetPointExpireForecastsFromSLPResp]"
+          ]
+        },
+        "sort": [
+          1776840100135
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "v5Tss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.137+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-3|Sync|t.c.t.c.p.t.ProfileTransaction|res ->> {\"statusType\":\"S\",\"errorCode\":\"S-PRF-11111\",\"errorMessage\":\"Successfully processed with data\",\"errorDescription\":\"ทำรายการสำเร็จ\",\"httpStatus\":200}",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.137Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-3|Sync|t.c.t.c.p.t.ProfileTransaction|res ->> {\"statusType\":\"S\",\"errorCode\":\"S-PRF-11111\",\"errorMessage\":\"Successfully processed with data\",\"errorDescription\":\"ทำรายการสำเร็จ\",\"httpStatus\":200}"
+          ]
+        },
+        "sort": [
+          1776840100137
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "vpTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.137+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|endpointResult in mapResponse is {\"endpointStatusType\":\"S\",\"endpointStatusCode\":\"S-PRF-11111\",\"endpointResponseCode\":\"11111\",\"endpointResponseMessage\":\"Successfully processed with data\",\"endpointErrorCode\":\"11111\",\"endpointErrorMessage\":\"Success with data\",\"endpointErrorDescription\":\"The transaction has been successfully completed\",\"httpStatus\":200,\"getTokenUsageTime\":0}",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.137Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-1445-thread-1|Async|t.c.t.c.p.service.RewardService|endpointResult in mapResponse is {\"endpointStatusType\":\"S\",\"endpointStatusCode\":\"S-PRF-11111\",\"endpointResponseCode\":\"11111\",\"endpointResponseMessage\":\"Successfully processed with data\",\"endpointErrorCode\":\"11111\",\"endpointErrorMessage\":\"Success with data\",\"endpointErrorDescription\":\"The transaction has been successfully completed\",\"httpStatus\":200,\"getTokenUsageTime\":0}"
+          ]
+        },
+        "sort": [
+          1776840100137
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "wJTss50BmXFpkG0kZpJo",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.139+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139763394|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-3|Sync|t.c.t.c.a.ControllerResponseAspect|[getProfile] Response Header: [], Body: GenericJsonResponse(status=StatusJsonResponse(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=trueapp20260422134139763394), data=ProfileResponse(profile=Profile(status=StatusModel(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=trueapp20260422134139763394), digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, productId=l+1UWvFZ7yx8fFDORE+yyw==, productBrand=TMH, productType=POSTPAID, productStatus=Active, productSegment=TUC, customerIdentity=bcUlYq0ZWhYsWgO77/yZDQ==, customerIdentityType=I, customerType=INDI, customerNumber=64325250, bcBan=, ban=G3B0mzExBkYOg/1TEp1kKg==, multiSimLevel=, mainConvergenceCode=, assetGroupId=, multiSimIndicator=, companyCode=RF, companyDescription=True Move H Universal Communication Co., Ltd, birthday=2002-11-26, subscriberId=M8REs53X+K6T3JhhwO76Pg==, hybridFlag=N, acctSubType=RPI, aouInfo=AouInfo(numDays=2366, day=25, month=5, year=6), suspendReason=null, smsRelation=null, accountPreferredContactNo=null), childList=null, packageCurrent=null, reward=RewardModel(status=StatusModel(statusType=S, errorCode=S-PRF-11111, errorMessage=Success with data, errorDescription=The transaction has been successfully completed, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=trueapp20260422134139763394), data=DataModel(id=null, typeCard=OXXZ, cardName=null, card=CardModel(type=Blue, typeCode=null, no=null, mastercardNo=null, expirationDate=2026-11-30, cardThumbnailUrl=null, cardImageUrl=null), myPoint=MyPointModel(totalPoint=1115, unit=POINT, points=[ExpirationItem(expirationDate=2026-12-31, points=85), ExpirationItem(expirationDate=2027-12-31, points=30), ExpirationItem(expirationDate=2028-12-31, points=1000)], loyaltyProgramMember=null))), nontelco=null, payment=BalanceResponse(digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, productInfo=ProductInfo(productId=l+1UWvFZ7yx8fFDORE+yyw==, accountId=G3B0mzExBkYOg/1TEp1kKg==, productType=POSTPAID, companyCode=RF, merchantName=True Move H Universal Communication Co., Ltd, productBrand=TMH, bcban=, pricePlanName=null, billStatus=ONDUE, balance=266.43, expireDate=null, advanceAmount=0.00, validDay=null, dueDate=2026-04-25T00:00:00+07:00, customerType=INDI, operator=TRUE, hybridFlag=null), cvgList=null, status=StatusModel(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=trueapp20260422134139763394))))",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.139Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|http-nio-8081-exec-3|Sync|t.c.t.c.a.ControllerResponseAspect|[getProfile] Response Header: [], Body: GenericJsonResponse(status=StatusJsonResponse(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@), data=ProfileResponse(profile=Profile(status=StatusModel(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@), digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, productId=l+1UWvFZ7yx8fFDORE+yyw==, productBrand=TMH, productType=POSTPAID, productStatus=Active, productSegment=TUC, customerIdentity=bcUlYq0ZWhYsWgO77/yZDQ==, customerIdentityType=I, customerType=INDI, customerNumber=64325250, bcBan=, ban=G3B0mzExBkYOg/1TEp1kKg==, multiSimLevel=, mainConvergenceCode=, assetGroupId=, multiSimIndicator=, companyCode=RF, companyDescription=True Move H Universal Communication Co., Ltd, birthday=2002-11-26, subscriberId=M8REs53X+K6T3JhhwO76Pg==, hybridFlag=N, acctSubType=RPI, aouInfo=AouInfo(numDays=2366, day=25, month=5, year=6), suspendReason=null, smsRelation=null, accountPreferredContactNo=null), childList=null, packageCurrent=null, reward=RewardModel(status=StatusModel(statusType=S, errorCode=S-PRF-11111, errorMessage=Success with data, errorDescription=The transaction has been successfully completed, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@), data=DataModel(id=null, typeCard=OXXZ, cardName=null, card=CardModel(type=Blue, typeCode=null, no=null, mastercardNo=null, expirationDate=2026-11-30, cardThumbnailUrl=null, cardImageUrl=null), myPoint=MyPointModel(totalPoint=1115, unit=POINT, points=[ExpirationItem(expirationDate=2026-12-31, points=85), ExpirationItem(expirationDate=2027-12-31, points=30), ExpirationItem(expirationDate=2028-12-31, points=1000)], loyaltyProgramMember=null))), nontelco=null, payment=BalanceResponse(digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, productInfo=ProductInfo(productId=l+1UWvFZ7yx8fFDORE+yyw==, accountId=G3B0mzExBkYOg/1TEp1kKg==, productType=POSTPAID, companyCode=RF, merchantName=True Move H Universal Communication Co., Ltd, productBrand=TMH, bcban=, pricePlanName=null, billStatus=ONDUE, balance=266.43, expireDate=null, advanceAmount=0.00, validDay=null, dueDate=2026-04-25T00:00:00+07:00, customerType=INDI, operator=TRUE, hybridFlag=null), cvgList=null, status=StatusModel(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@))))"
+          ]
+        },
+        "sort": [
+          1776840100139
+        ]
+      },
+      {
+        "_index": "trueapp.commonbe.debug.preprod-20260422",
+        "_id": "EGPss50BArUDUIahdZDr",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "@timestamp": "2026-04-22T13:41:40.140+07:00",
+          "message": "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139761993|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-369-thread-1|Async|t.c.t.c.service.CommonBEService|[CommonBEService][Response][-][167] 200 OK, epResheader=[Content-Type:\"application/json\", Transfer-Encoding:\"chunked\", Date:\"Wed, 22 Apr 2026 06:41:40 GMT\", Keep-Alive:\"timeout=60\", Connection:\"keep-alive\"], epResbody=GetDigitalListByDigitalIdResponse(status=StatusJsonResponse(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=trueapp20260422134139763394), data=GetDigitalListByDigitalIdResponse.DataObj(profile=ProfileInfo(digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, productId=l+1UWvFZ7yx8fFDORE+yyw==, productBrand=TMH, productType=POSTPAID, productStatus=Active, productSegment=TUC, customerIdentity=bcUlYq0ZWhYsWgO77/yZDQ==, customerIdentityType=I, customerType=INDI, customerNumber=64325250, bcBan=, ban=G3B0mzExBkYOg/1TEp1kKg==, multiSimLevel=, multiSimIndicator=, mainConvergenceCode=, assetGroupId=, companyCode=RF, companyDescription=True Move H Universal Communication Co., Ltd, subscriberId=M8REs53X+K6T3JhhwO76Pg==, hybridFlag=N, acctSubType=RPI, aouInfo=AouInfo(numDays=2366, day=25, month=5, year=6), status=StatusJsonResponse(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=trueapp20260422134139763394)), nontelco=null, reward=RewardInfo(status=StatusJsonResponse(statusType=S, errorCode=S-PRF-11111, errorMessage=Success with data, errorDescription=The transaction has been successfully completed, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=trueapp20260422134139763394), data=RewardInfo.DataObj(id=null, typeCard=OXXZ, cardName=null, card=RewardInfo.Card(type=Blue, typeCode=null, no=null, mastercardNo=null, expirationDate=2026-11-30), myPoint=RewardInfo.MyPoint(totalPoint=1115, unit=POINT, points=[RewardInfo.Point(points=85, expirationDate=2026-12-31), RewardInfo.Point(points=30, expirationDate=2027-12-31), RewardInfo.Point(points=1000, expirationDate=2028-12-31)]))), payment=PaymentInfo(status=StatusJsonResponse(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=trueapp20260422134139763394), digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, productInfo=PaymentInfo.ProductInfo(productId=l+1UWvFZ7yx8fFDORE+yyw==, productType=POSTPAID, productBrand=TMH, billStatus=ONDUE, balance=266.43, advanceAmount=0.00, dueDate=2026-04-25T00:00:00+07:00, expireDate=null, validDay=0)), childList=null)), epResTime=378",
+          "@log_name": "trueapp.commonbe.debug.preprod"
+        },
+        "fields": {
+          "@timestamp": [
+            "2026-04-22T06:41:40.140Z"
+          ]
+        },
+        "highlight": {
+          "message": [
+            "INFO |2214718d-916742252f0f-f9-29f4492|trueapp20260422134139757873|trueapp20260422134139761993|trueapp|b0c16df4e7b53ea7c67f778b07eeddfe|TMH|pool-369-thread-1|Async|t.c.t.c.service.CommonBEService|[CommonBEService][Response][-][167] 200 OK, epResheader=[Content-Type:\"application/json\", Transfer-Encoding:\"chunked\", Date:\"Wed, 22 Apr 2026 06:41:40 GMT\", Keep-Alive:\"timeout=60\", Connection:\"keep-alive\"], epResbody=GetDigitalListByDigitalIdResponse(status=StatusJsonResponse(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@), data=GetDigitalListByDigitalIdResponse.DataObj(profile=ProfileInfo(digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, productId=l+1UWvFZ7yx8fFDORE+yyw==, productBrand=TMH, productType=POSTPAID, productStatus=Active, productSegment=TUC, customerIdentity=bcUlYq0ZWhYsWgO77/yZDQ==, customerIdentityType=I, customerType=INDI, customerNumber=64325250, bcBan=, ban=G3B0mzExBkYOg/1TEp1kKg==, multiSimLevel=, multiSimIndicator=, mainConvergenceCode=, assetGroupId=, companyCode=RF, companyDescription=True Move H Universal Communication Co., Ltd, subscriberId=M8REs53X+K6T3JhhwO76Pg==, hybridFlag=N, acctSubType=RPI, aouInfo=AouInfo(numDays=2366, day=25, month=5, year=6), status=StatusJsonResponse(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@)), nontelco=null, reward=RewardInfo(status=StatusJsonResponse(statusType=S, errorCode=S-PRF-11111, errorMessage=Success with data, errorDescription=The transaction has been successfully completed, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@), data=RewardInfo.DataObj(id=null, typeCard=OXXZ, cardName=null, card=RewardInfo.Card(type=Blue, typeCode=null, no=null, mastercardNo=null, expirationDate=2026-11-30), myPoint=RewardInfo.MyPoint(totalPoint=1115, unit=POINT, points=[RewardInfo.Point(points=85, expirationDate=2026-12-31), RewardInfo.Point(points=30, expirationDate=2027-12-31), RewardInfo.Point(points=1000, expirationDate=2028-12-31)]))), payment=PaymentInfo(status=StatusJsonResponse(statusType=S, errorCode=S-PRF-11111, errorMessage=Successfully processed with data, errorDescription=ทำรายการสำเร็จ, hostId=trueapp-commonbe-profile-deploy-6c7fdfbb89-2nsvl, transactionId=@opensearch-dashboards-highlighted-field@trueapp20260422134139763394@/opensearch-dashboards-highlighted-field@), digitalId=b0c16df4e7b53ea7c67f778b07eeddfe, productInfo=PaymentInfo.ProductInfo(productId=l+1UWvFZ7yx8fFDORE+yyw==, productType=POSTPAID, productBrand=TMH, billStatus=ONDUE, balance=266.43, advanceAmount=0.00, dueDate=2026-04-25T00:00:00+07:00, expireDate=null, validDay=0)), childList=null)), epResTime=378"
+          ]
+        },
+        "sort": [
+          1776840100140
+        ]
+      }
+    ]
+  },
+  "aggregations": {
+    "2": {
+      "buckets": [
+        {
+          "key_as_string": "2026-04-22T13:00:00.000+07:00",
+          "key": 1776837600000,
+          "doc_count": 73
+        }
+      ]
+    }
+  }
+}
