@@ -5,8 +5,8 @@ import glob
 import re
 
 # ชื่อโฟลเดอร์
-INPUT_FOLDER = 'input2'
-OUTPUT_FOLDER = 'output2'
+INPUT_FOLDER = 'json_athena'
+OUTPUT_FOLDER = 'output_json_athena'
 
 
 def process_conversion():
@@ -68,6 +68,7 @@ def process_conversion():
 
 
 
+
 def extract_messages_from_file(input_file):
     messages = []
 
@@ -85,28 +86,31 @@ def extract_messages_from_file(input_file):
                 level = data.get('level', '')
                 digital_id = data.get('digitalId', '')
                 tx_id = data.get('txId', '')
-                req_tx_id = data.get('reqTxId', '')
-                zone = data.get('zone', '')
                 brand = data.get('brand', '')
-                prd_type = data.get('prdType', '')
-                source_system = data.get('sourceSystem', '')
-                req_ip = data.get('reqIP', '')
                 thread = data.get('thread', '')
                 mode = data.get('mode', '')
                 logger = data.get('logger', '')
-                message = data.get('message', '')
+
+                # =========================
+                # Handle หลาย format
+                # =========================
+                message = (
+                    data.get('message')
+                    or data.get('msg')
+                    or data.get('log')
+                    or data.get('content')
+                    or data.get('exception')
+                    or ''
+                )
+
+                # ถ้าไม่มีจริงๆ
+                if not message:
+                    message = str(data)
 
                 messages.append([
                     level,
                     digital_id,
                     tx_id,
-                    req_tx_id,
-                    zone,
-                    brand,
-                    prd_type,
-                    source_system,
-                    req_ip,
-                    source_system,
                     brand,
                     thread,
                     mode,
@@ -118,6 +122,7 @@ def extract_messages_from_file(input_file):
                 print(f"⚠️ JSON parse error line {line_number}: {e}")
 
     return messages
+
 
 
 

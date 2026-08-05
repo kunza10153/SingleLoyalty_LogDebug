@@ -1,161 +1,138 @@
-# 📂 JSON to CSV Message Exporter
+# 📂 JSON to CSV Log Converter
 
-เครื่องมือสำหรับดึงข้อมูลจากฟิลด์ `message` ภายในไฟล์ JSON (Log format) และส่งออกเป็นไฟล์ CSV พร้อมระบบค้นหา keyword แบบอัตโนมัติ เพื่อเช็คว่าเป็นข้อมูลจากเส้นเก่าหรือเส้นใหม่
-
----
-
-## 🛠 โครงสร้างระบบ (Folder Structure)
-
-จัดเตรียมโฟลเดอร์ให้เป็นระเบียบดังนี้ก่อนใช้งาน:
-
-```
-script/
-  convert.py        (ไฟล์โปรแกรมหลัก)
-  input/            (โฟลเดอร์เก็บไฟล์ JSON ต้นทาง)
-  output/           (โฟลเดอร์เก็บไฟล์ CSV ที่ได้)
-  result/           (โฟลเดอร์เก็บไฟล์ผลลัพธ์การค้นหา)
-  keyword/          (ไฟล์ keyword สำหรับค้นหา)
-     new_keyword.json
-     old_keyword.json
-```
+รวมสคริปต์แปลง log 3 รูปแบบ โดยใช้โฟลเดอร์แยกตามชนิดของ log และสร้าง CSV อัตโนมัติ
 
 ---
 
-## 🚀 วิธีการใช้งาน
+## 🔧 สคริปต์ที่ใช้
 
-### 1. เตรียมไฟล์ JSON
+1. `convert__debug_gitbash.py`
+   - แปลงไฟล์จากโฟลเดอร์ `json_gitbash`
+   - ผลลัพธ์จะเก็บไว้ใน `output_json_gitbash`
 
-นำไฟล์ `.json` ที่คุณต้องการแปลงไปวางไว้ในโฟลเดอร์ `input/`
+2. `convert_debug_athena.py`
+   - แปลงไฟล์จากโฟลเดอร์ `json_athena`
+   - ผลลัพธ์จะเก็บไว้ใน `output_json_athena`
 
-รองรับ **หลายไฟล์ JSON** ในการทำงานครั้งเดียว
+3. `convert_debug_openseatch.py`
+   - แปลงไฟล์จากโฟลเดอร์ `json_openseatch`
+   - ผลลัพธ์จะเก็บไว้ใน `output_json_openseatch`
+   - มีระบบค้นหา keyword ด้วยไฟล์ `keyword/{old,new}_keyword.json`
+
+---
+
+## 📁 โครงสร้างโฟลเดอร์ปัจจุบัน
+
+```
+JSON-to-CSV/
+  convert__debug_gitbash.py
+  convert_debug_athena.py
+  convert_debug_openseatch.py
+  json_athena/
+  json_gitbash/
+  json_openseatch/
+  keyword/
+    new_keyword.json
+    old_keyword.json
+  output_json_athena/
+  output_json_gitbash/
+  output_json_openseatch/
+```
+
+---
+
+## 🚀 วิธีใช้งาน
+
+1. วางไฟล์ `.json` ต้นทางไว้ในโฟลเดอร์ตามสคริปต์ที่ต้องการ
+   - ใช้ `json_gitbash/` กับ `convert__debug_gitbash.py`
+   - ใช้ `json_athena/` กับ `convert_debug_athena.py`
+   - ใช้ `json_openseatch/` กับ `convert_debug_openseatch.py`
+
+2. รันสคริปต์ด้วยคำสั่ง
+
+```bash
+python3 convert__debug_gitbash.py
+python3 convert_debug_athena.py
+python3 convert_debug_openseatch.py
+```
+
+3. ถ้าใช้ `convert_debug_openseatch.py` จะมีขั้นตอนค้นหา keyword ด้วย
+
+```bash
+python3 convert_debug_openseatch.py
+```
+
+ระบบจะรันแปลงไฟล์ก่อน แล้วรอให้กด Enter ก่อนปิดหน้าต่าง
+
+---
+
+## 📄 เปลี่ยนชื่อไฟล์เมื่อรัน
+
+ไฟล์ CSV ที่ได้จะมีชื่อเดียวกับไฟล์ JSON ต้นฉบับ โดยเปลี่ยนสกุลเป็น `.csv`
 
 ตัวอย่าง:
 
-```
-input/
-  log1.json
-  log2.json
-  log3.json
-```
+- `json_gitbash/example.json` → `output_json_gitbash/example.csv`
+- `json_athena/example.json` → `output_json_athena/example.csv`
+- `json_openseatch/example.json` → `output_json_openseatch/example.csv`
 
 ---
 
-### 2. เตรียมไฟล์ Keyword
+## ✅ รูปแบบ CSV ที่ได้
 
-ระบบรองรับการค้นหาแบบแบ่งตามกลุ่มหัวข้อ โดยเตรียมไฟล์ในโฟลเดอร์ `keyword/`
+### `convert__debug_gitbash.py`
 
-ตัวอย่าง `new_keyword.json` หรือ `old_keyword.json`:
+หัวคอลัมน์:
 
-```json
-{
-  "Get Privilege Profile": [
-    "loyaltyBalance",
-    "getExpiration",
-    "loyaltyProgramMember"
-  ],
-  "Redeem API": [
-    "redeemPoint",
-    "transactionId"
-  ]
-}
-```
+`level | digitalId | txId | reqTxId | zone | brand | prdType | sourceSystem | reqIP | thread | mode | logger | message`
 
-โครงสร้าง:
+### `convert_debug_athena.py`
 
-* key = หัวข้อหลัก
-* value = keyword ที่ต้องการค้นหา
+หัวคอลัมน์:
+
+`level | digitalId | txId | brand | thread | mode | logger | message`
+
+### `convert_debug_openseatch.py`
+
+หัวคอลัมน์:
+
+`message`
 
 ---
 
-### 3. รันโปรแกรม
+## 🔍 ค้นหา keyword (เฉพาะ `convert_debug_openseatch.py`)
 
-สามารถดับเบิลคลิกที่ไฟล์ `convert.py` หรือใช้คำสั่ง:
+ไฟล์ keyword ที่รองรับ:
 
-```bash
-python3 convert.py
+- `keyword/old_keyword.json`
+- `keyword/new_keyword.json`
+
+เมื่อรันสคริปต์แล้ว ให้เลือก
+
+```text
+old
+หรือ
+new
 ```
 
-ระบบจะให้เลือก:
-
-```
-เลือก keyword (old / new):
-```
+โปรแกรมจะสร้างไฟล์สรุปในโฟลเดอร์ `result/` สำหรับแต่ละหัวข้อ
 
 ---
 
-### 4. ผลลัพธ์
+## ⚠️ ข้อควรระวัง
 
-#### 4.1 CSV จาก JSON
-
-ไฟล์ CSV จะถูกสร้างในโฟลเดอร์ `output/`
-
-```
-output/
-  Profile_Core.csv
-  redeem.csv
-```
-
-#### 4.2 ผลลัพธ์การค้นหา
-
-ระบบจะค้นหาข้อมูลจาก CSV และสร้างไฟล์สรุปใน `result/`
-
-```
-result/
-  Get_Privilege_Profile.csv
-  Redeem_API.csv
-```
-
-ชื่อไฟล์จะมาจากหัวข้อใน keyword
+- ถ้าไม่มีไฟล์ `.json` ในโฟลเดอร์ input จะไม่มีการสร้างไฟล์ CSV
+- ชื่อ CSV จะตั้งตามชื่อ JSON ต้นฉบับโดยอัตโนมัติ
+- `convert_debug_openseatch.py` จะอ่านโครงสร้าง JSON แบบ Elasticsearch/Opensearch ที่มี `hits.hits` และ `_source.message`
 
 ---
 
-## 📝 รายละเอียดการทำงานของระบบค้นหา
+## 💡 สรุป
 
-* รองรับการค้นหา keyword หลายคำในครั้งเดียว
-* ค้นหาแบบไม่สนตัวพิมพ์ใหญ่–เล็ก
-* ค้นหาทุกไฟล์ CSV อัตโนมัติ
-* แยกผลลัพธ์ตามหัวข้อ
-* เหมาะสำหรับเปรียบเทียบระบบ Old vs New
+โปรเจกต์นี้ช่วยให้แปลง log จาก 3 แหล่งหลักเป็น CSV ได้ง่าย และเก็บผลลัพธ์ในโฟลเดอร์ตามแต่ละรูปแบบ
 
-ไฟล์ผลลัพธ์ประกอบด้วย:
+- `convert__debug_gitbash.py` → `output_json_gitbash/`
+- `convert_debug_athena.py` → `output_json_athena/`
+- `convert_debug_openseatch.py` → `output_json_openseatch/`
 
-| topic | keyword | filename | row_number | message |
-
----
-
-## 🧾 การจัดการ Log (Handle Log)
-
-### 🔹 No .json file
-
-หากในโฟลเดอร์ `input/` ไม่มีไฟล์ `.json` โปรแกรมจะแจ้งเตือน
-
-### 🔹 Empty Message
-
-หากไฟล์ JSON ไม่มีฟิลด์ `message` โปรแกรมจะแจ้งเตือนและข้ามไฟล์นั้น
-
-### 🔹 Error per file
-
-หากไฟล์ใดเกิดข้อผิดพลาด โปรแกรมจะไม่หยุดทั้งระบบ แต่จะทำงานต่อกับไฟล์อื่น
-
----
-
-## ⚙️ รูปแบบ JSON ที่รองรับ
-
-```json
-{
-  "hits": {
-    "hits": [
-      {
-        "_source": {
-          "message": "log message here"
-        }
-      }
-    ]
-  }
-}
-
-```
-
----
-
-*จัดทำขึ้นเพื่อช่วยให้การดึง Log และตรวจสอบข้อมูลเป็นเรื่องง่ายขึ้น* 🚀
+หากต้องการเพิ่มสคริปต์ใหม่ ให้สร้างไฟล์ใหม่และกำหนด `INPUT_FOLDER` กับ `OUTPUT_FOLDER` ให้ตรงกับโฟลเดอร์ต้นทางและผลลัพธ์

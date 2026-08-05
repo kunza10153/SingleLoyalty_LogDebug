@@ -4,8 +4,8 @@ import os
 import glob
 
 # ชื่อโฟลเดอร์
-INPUT_FOLDER = 'input'
-OUTPUT_FOLDER = 'output'
+INPUT_FOLDER = 'json_openseatch'
+OUTPUT_FOLDER = 'output_json_openseatch'
 RESULT_FOLDER = 'result'
 
 def process_conversion():
@@ -137,5 +137,5 @@ def search_by_keyword_file():
 if __name__ == "__main__":
     process_conversion()
     print("-" * 30)
-    search_by_keyword_file()
+    ##search_by_keyword_file()
     input("กด Enter เพื่อปิดหน้าต่างนี้...")
